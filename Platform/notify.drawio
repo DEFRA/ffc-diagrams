@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2020-11-24T11:02:49.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="IWhfhDPg8-06HPh2VpNO" version="13.10.0" type="github">
+  <diagram id="Zkixjd5iSI4aXFJRy5j1" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-1" value="Claim service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s1B4T_GjrSwtze7-C9ND-2" target="s1B4T_GjrSwtze7-C9ND-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-2" value="Claim queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s1B4T_GjrSwtze7-C9ND-3" target="s1B4T_GjrSwtze7-C9ND-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-3" value="Validate claim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s1B4T_GjrSwtze7-C9ND-4" target="s1B4T_GjrSwtze7-C9ND-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-4" value="Persist claim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s1B4T_GjrSwtze7-C9ND-7" target="s1B4T_GjrSwtze7-C9ND-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s1B4T_GjrSwtze7-C9ND-7" target="s1B4T_GjrSwtze7-C9ND-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s1B4T_GjrSwtze7-C9ND-7" target="s1B4T_GjrSwtze7-C9ND-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-7" value="Publish claim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-8" value="Calculation queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="98" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-10" value="Schedule queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-12" value="Db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1B4T_GjrSwtze7-C9ND-14" value="GOV.UK Notify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

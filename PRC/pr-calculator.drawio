@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2021-03-05T17:11:48.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="bnNsONQMecf1L_NWwsvW" version="14.4.3" type="github">
+  <diagram id="BVbKm5B8hFHw94H4395E" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="Claimant" c4Type="Person" c4Description="A person currently &#xa;claiming BPS" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="pfNRtf9qruOlBMAzS6qp-1">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="1" vertex="1">
+            <mxGeometry x="90" y="40" width="110.00000000000001" height="140" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="PRC" c4Type="Software System" c4Description="Allows user to estimate&#xa;progressive reduction &#xa;payments based on BPS&#xa;value" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="pfNRtf9qruOlBMAzS6qp-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="65" y="260" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="Https" c4Description="Views calculation result" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="pfNRtf9qruOlBMAzS6qp-3">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="pfNRtf9qruOlBMAzS6qp-1" target="pfNRtf9qruOlBMAzS6qp-2" edge="1">
+            <mxGeometry width="160" relative="1" as="geometry">
+              <mxPoint x="330" y="180" as="sourcePoint" />
+              <mxPoint x="490" y="180" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Claimant" c4Type="Person" c4Description="A person currently &#xa;claiming BPS" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="pfNRtf9qruOlBMAzS6qp-4">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="1" vertex="1">
+            <mxGeometry x="520" y="40" width="110.00000000000001" height="140" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Progressive Reductions Calculator" c4Type="ExecutionEnvironment" c4Application="Software System" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="pfNRtf9qruOlBMAzS6qp-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="375" y="260" width="400" height="190" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="PRC" c4Type="Container" c4Technology="Node.js" c4Description="Allows user to estimate&#xa;progressive reduction &#xa;payments based on BPS&#xa;value" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="pfNRtf9qruOlBMAzS6qp-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="495" y="290" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="Https" c4Description="Views calculation result" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="pfNRtf9qruOlBMAzS6qp-5">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pfNRtf9qruOlBMAzS6qp-4" edge="1">
+            <mxGeometry width="160" relative="1" as="geometry">
+              <mxPoint x="760" y="180" as="sourcePoint" />
+              <mxPoint x="575" y="290" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-10" value="AKS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="200" y="570" width="380" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-11" value="ffc-pr&lt;br&gt;(Namespace)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="350" y="600" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pfNRtf9qruOlBMAzS6qp-13" target="pfNRtf9qruOlBMAzS6qp-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-13" value="Ingress" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-14" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="700" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-15" value="Pod" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="380" y="750" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-9" value="PRC&lt;br&gt;(Node.js)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pfNRtf9qruOlBMAzS6qp-16" target="pfNRtf9qruOlBMAzS6qp-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-16" value="Ingress Controller&lt;br&gt;(Platform provided)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pfNRtf9qruOlBMAzS6qp-17" target="pfNRtf9qruOlBMAzS6qp-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-17" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="635" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pfNRtf9qruOlBMAzS6qp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pfNRtf9qruOlBMAzS6qp-14" target="pfNRtf9qruOlBMAzS6qp-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

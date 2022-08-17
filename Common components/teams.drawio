@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2021-10-08T10:46:46.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="VHav9YJbblIVhYal3XiP" version="15.4.3" type="github">
+  <diagram id="nyiL7eAwjt1zNVLjtlwg" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-10" value="Common Components" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="940" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="cNJyM7TGQfyF_yB1Wfk2-1" value="&lt;b&gt;SFI&lt;/b&gt;&lt;br&gt;Apply for SFI&lt;br&gt;&lt;br&gt;2x developer&lt;br&gt;1x QA" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cNJyM7TGQfyF_yB1Wfk2-2" value="&lt;b&gt;Platform&lt;/b&gt;&lt;br&gt;CI/CD&lt;br&gt;Common patterns&lt;br&gt;Payments&lt;br&gt;Case management&lt;br&gt;Rules engines&lt;br&gt;&lt;br&gt;4x developer&lt;br&gt;2x dynamics developer&lt;br&gt;1x webops&lt;br&gt;1xQA" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="280" y="160" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cNJyM7TGQfyF_yB1Wfk2-3" value="&lt;b&gt;Integration&lt;/b&gt;&lt;br&gt;API Gateway&lt;br&gt;CH Integration&lt;br&gt;Dell Boomi&lt;br&gt;&lt;br&gt;2x webops" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="510" y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cNJyM7TGQfyF_yB1Wfk2-4" value="&lt;b&gt;Vets Visits&lt;/b&gt;&lt;br&gt;Apply for SFI&lt;br&gt;&lt;br&gt;1x developer" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Apply for SFI&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Creating and manage SFI agreements for internal and external user interfaces.&amp;nbsp; Integrate with common capability such as agreement calculator and case management&lt;/p&gt;&lt;p&gt;&lt;b&gt;Developers&lt;/b&gt;&lt;/p&gt;&lt;p&gt;2&lt;/p&gt;&lt;p&gt;&lt;b&gt;Skills&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Node.js&lt;/p&gt;&lt;p&gt;Docker&lt;/p&gt;&lt;p&gt;Kubernetes&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="440" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-3" value="&lt;h1&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Agreement Calculator&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Rules engine to support eligibility checks, agreement calculation and policy modelling.&lt;/p&gt;&lt;p&gt;Significant data integration with existing Crown Hosting services&lt;/p&gt;&lt;p&gt;&lt;b&gt;Developers&lt;/b&gt;&lt;/p&gt;&lt;p&gt;2&lt;/p&gt;&lt;p&gt;&lt;b&gt;Skills&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Node.js&lt;/p&gt;&lt;p&gt;Docker&lt;/p&gt;&lt;p&gt;Kubernetes&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-4" value="&lt;h1&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Vets Visits&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Create and manage Vets Visits applications for internal and external users.&amp;nbsp; Integrate with common capability such as agreement calculator and case management.&amp;nbsp; Integrate with external vet services&lt;/p&gt;&lt;p&gt;&lt;b&gt;Developers&lt;/b&gt;&lt;/p&gt;&lt;p&gt;1&lt;/p&gt;&lt;p&gt;&lt;b&gt;Skills&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Node.js&lt;/p&gt;&lt;p&gt;Docker&lt;/p&gt;&lt;p&gt;Kubernetes&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="760" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-5" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Payment services&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Payment request enrichment and orchestration including post payment adjustment calculation and integration with DAX.&amp;nbsp; Integration with Siti Agri for SFI pilot&lt;/p&gt;&lt;p&gt;&lt;b&gt;Developers&lt;/b&gt;&lt;/p&gt;&lt;p&gt;1&lt;/p&gt;&lt;p&gt;&lt;b&gt;Skills&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Node.js&lt;/p&gt;&lt;p&gt;Docker&lt;/p&gt;&lt;p&gt;Kubernetes&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-6" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Case management&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Case management to support operational processing of agreement generated tasks.&amp;nbsp; Integration with existing RPA dynamics instance.&amp;nbsp; Case generation orchestration and rules.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Developers&lt;/b&gt;&lt;/p&gt;&lt;p&gt;2&lt;/p&gt;&lt;p&gt;&lt;b&gt;Skills&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Dynamics&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="440" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-7" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;FFC Customer Plus&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Identity services to support FFC services and context specific data.&amp;nbsp; Integration with Defra.Customer.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Developers&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2&lt;/p&gt;&lt;p&gt;&lt;b&gt;Skills&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Node.js&lt;/p&gt;&lt;p&gt;Docker&lt;/p&gt;&lt;p&gt;Kubernetes&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-8" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Platform Services&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/p&gt;&lt;p&gt;FFC hosting and delivery capability including CI/CD pipelines, dev tools, standards, route to live&lt;/p&gt;&lt;p&gt;&lt;b&gt;Developers&lt;/b&gt;&lt;/p&gt;&lt;p&gt;1&lt;/p&gt;&lt;p&gt;&lt;b&gt;Skills&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Node.js&lt;/p&gt;&lt;p&gt;.NET&lt;/p&gt;&lt;p&gt;Docker&lt;/p&gt;&lt;p&gt;Kubernetes&lt;/p&gt;&lt;p&gt;Jenkins&lt;/p&gt;&lt;p&gt;Azure DevOps&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="440" width="280" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="pby4R0IIR9z8Qsa8YKlG-9" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Integration&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Integration between FFC Azure and other such as Crown Hosting and DAX.&amp;nbsp; Including API, events, files, DWH.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="800" width="280" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

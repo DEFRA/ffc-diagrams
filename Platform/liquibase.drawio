@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2021-01-07T16:27:33.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7hptmU4yvsmvi1kYHuMp" version="14.1.8" type="github">
+  <diagram id="Nlwr6ScFeOgfmbjEeMNi" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--1" value="Microservice repository" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="140" y="240" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--2" value="Application code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--3" value="Test code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--4" value="Helm Chart" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--5" value="Liquibase" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--6" value="Change Log" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--7" value="Change Set 1&lt;br&gt;Change Set 2&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QshqFZ_pYxeWOFr2NSt--5" target="QshqFZ_pYxeWOFr2NSt--6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="360" as="sourcePoint" />
+            <mxPoint x="490.71067811865476" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QshqFZ_pYxeWOFr2NSt--9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QshqFZ_pYxeWOFr2NSt--5" target="QshqFZ_pYxeWOFr2NSt--7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-1" value="CI Pipeline" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="600" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-2" value="PR deployment step" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="140" y="610" width="500" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4arRB18JbWxnsOXszeT-3" target="S4arRB18JbWxnsOXszeT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-3" value="Create Kubernetes namespace suffixed with PR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="640" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4arRB18JbWxnsOXszeT-4" target="S4arRB18JbWxnsOXszeT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-4" value="Retrieve Liquibase changeset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="690" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4arRB18JbWxnsOXszeT-6" target="S4arRB18JbWxnsOXszeT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-6" value="Authenticate with PostgreSQL using managed Identity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="740" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4arRB18JbWxnsOXszeT-8" target="S4arRB18JbWxnsOXszeT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-8" value="Recreate database schema with current PR commit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="790" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-10" value="Apply schema update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="840" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-12" value="Release Pipeline" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="910" width="600" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-13" value="PR deployment step" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="140" y="940" width="500" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4arRB18JbWxnsOXszeT-17" target="S4arRB18JbWxnsOXszeT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-17" value="Retrieve Liquibase changeset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="970" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-19" value="Authenticate with PostgreSQL using managed Identity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1020" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="S4arRB18JbWxnsOXszeT-19" target="S4arRB18JbWxnsOXszeT-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="1100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4arRB18JbWxnsOXszeT-22" value="Apply schema update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1070" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

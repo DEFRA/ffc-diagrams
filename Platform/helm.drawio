@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2020-07-29T11:48:39.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="WKUWuzZGEIRfm7em0tQk" version="13.4.9" type="github">
+  <diagram id="50JFuccT_Q_qCGqwlkVP" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-11" value="Azure" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-3" value="GitHub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="105" y="90" width="345" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-1" target="H97qHr7kZWoiDHxrE_1C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-1" value="Helm Chart Library" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-2" target="H97qHr7kZWoiDHxrE_1C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-2" target="H97qHr7kZWoiDHxrE_1C-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-2" value="Public Helm Chart Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-7" target="H97qHr7kZWoiDHxrE_1C-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-7" value="Microservice 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="324" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-8" target="H97qHr7kZWoiDHxrE_1C-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-8" value="Microservice 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="324" y="200" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-13" target="H97qHr7kZWoiDHxrE_1C-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-13" value="Private Helm Chart Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="515" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-16" target="H97qHr7kZWoiDHxrE_1C-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-16" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="515" y="200" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-18" value="AKS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="200" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-22" target="H97qHr7kZWoiDHxrE_1C-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-22" value="Key Vault" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="820" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H97qHr7kZWoiDHxrE_1C-23" target="H97qHr7kZWoiDHxrE_1C-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="180" />
+              <mxPoint x="583" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H97qHr7kZWoiDHxrE_1C-23" value="AppConfig" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

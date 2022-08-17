@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" modified="2021-02-16T14:40:38.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="2QTSb9HlXsjRgvJR4JN2" version="14.3.1" type="github">
+  <diagram id="eQA3AF0-eyoVMlXrv41d" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-2" value="Check Version increment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ISbN0fmPi9HOfUeaP6SH-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-6" target="ISbN0fmPi9HOfUeaP6SH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-6" value="Get build and PR data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-8" target="ISbN0fmPi9HOfUeaP6SH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-8" value="Build Image" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-12" target="ISbN0fmPi9HOfUeaP6SH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-12" value="If main build" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-14" target="ISbN0fmPi9HOfUeaP6SH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-14" value="Check if tag exists in DockerHub" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-16" target="ISbN0fmPi9HOfUeaP6SH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-16" target="ISbN0fmPi9HOfUeaP6SH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-16" value="Push to DockerHub" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-18" target="ISbN0fmPi9HOfUeaP6SH-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-18" value="Trigger GitHub release" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png" vertex="1" parent="1">
+          <mxGeometry x="826" y="70" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/logotypes/32/github-128.png" vertex="1" parent="1">
+          <mxGeometry x="1031" y="80" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-25" target="ISbN0fmPi9HOfUeaP6SH-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-25" value="Check Version increment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-28" target="ISbN0fmPi9HOfUeaP6SH-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-28" value="Get PR data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-33" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-30" target="ISbN0fmPi9HOfUeaP6SH-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-35" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-30" target="ISbN0fmPi9HOfUeaP6SH-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-30" value="if main build" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-32" value="Publish to npm&lt;br&gt;(Pre-release)" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-34" target="ISbN0fmPi9HOfUeaP6SH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-34" target="ISbN0fmPi9HOfUeaP6SH-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-34" value="Publish to npm&lt;br&gt;(Latest)" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ISbN0fmPi9HOfUeaP6SH-36" target="ISbN0fmPi9HOfUeaP6SH-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-36" value="Trigger GitHub release" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/logotypes/32/github-128.png" vertex="1" parent="1">
+          <mxGeometry x="671" y="660" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ISbN0fmPi9HOfUeaP6SH-40" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/npm-128.png" vertex="1" parent="1">
+          <mxGeometry x="456" y="660" width="88" height="88" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

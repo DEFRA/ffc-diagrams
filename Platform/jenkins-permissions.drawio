@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2020-11-25T14:34:57.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="Yuc6DcNax7wds2n8vwm-" version="13.10.2" type="github">
+  <diagram id="jPPCHqp3fKbs0fYgKg1M" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-1" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="640" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-2" value="Build workspace&lt;br&gt;(Owner: Jenkins)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="264" y="70" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-5" value="Build steps" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-4" value="Docker" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="57" y="120" width="156" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="ehxdLWZfjKaafFE_TKwz-6" target="ehxdLWZfjKaafFE_TKwz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-6" value="Run tests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-7" value="Test output files&lt;br&gt;(Owner: root)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="155" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="ehxdLWZfjKaafFE_TKwz-13" target="ehxdLWZfjKaafFE_TKwz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxdLWZfjKaafFE_TKwz-13" value="Cleanup on branch removal&lt;br&gt;(User: Jenkins)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

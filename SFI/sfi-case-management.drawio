@@ -1,0 +1,462 @@
+<mxfile host="app.diagrams.net" modified="2021-11-08T17:12:30.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uZyF1Ubk7HvCC0ZWCgfC" version="15.7.0" type="github">
+  <diagram id="96eKvqNJEgnQ8P5QyueD" name="Page-1">
+    <mxGraphModel dx="1038" dy="2884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-159" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="-730" width="590" height="3550" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-160" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-730" width="510" height="3550" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-158" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="-730" width="500" height="3550" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-88" value="Warnings on rule fail" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="50" width="350" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-68" target="JusbMAUTRuWRRKYKNHEX-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-68" value="Rules" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1160" y="50" width="140" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-1" target="JusbMAUTRuWRRKYKNHEX-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-1" value="Submitted agreement received" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="230" y="-670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-2" target="JusbMAUTRuWRRKYKNHEX-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="-470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-2" target="JusbMAUTRuWRRKYKNHEX-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-2" value="Is duplicate message?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="-510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-6" value="No action" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="390" y="-510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-7" target="JusbMAUTRuWRRKYKNHEX-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-7" value="Create contract number" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-9" target="JusbMAUTRuWRRKYKNHEX-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-9" value="Save agreement" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-11" target="JusbMAUTRuWRRKYKNHEX-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-11" target="JusbMAUTRuWRRKYKNHEX-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="-30" />
+              <mxPoint x="390" y="-80" />
+              <mxPoint x="1230" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-11" target="JusbMAUTRuWRRKYKNHEX-103" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-11" value="Create new validation incident" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-21" target="JusbMAUTRuWRRKYKNHEX-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-21" value="Submitted agreement received" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="750" y="-670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-22" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-23" target="JusbMAUTRuWRRKYKNHEX-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="-470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-23" target="JusbMAUTRuWRRKYKNHEX-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-23" value="Is duplicate message?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="-510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-24" value="No action" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="910" y="-510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-25" target="JusbMAUTRuWRRKYKNHEX-119" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-25" value="Create case" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="-340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-28" target="JusbMAUTRuWRRKYKNHEX-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-28" value="Submitted agreement received" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="-670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-29" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-31" target="JusbMAUTRuWRRKYKNHEX-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="-470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-31" target="JusbMAUTRuWRRKYKNHEX-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-31" value="Is duplicate message?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="-510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-32" value="No action" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="-510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-33" target="JusbMAUTRuWRRKYKNHEX-123" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-33" value="Save agreement data" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="-340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-34" value="Processing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-35" value="Dynamics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="-730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-36" value="Agreement Calculator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="-730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-37" target="JusbMAUTRuWRRKYKNHEX-121" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-37" value="Create validation incident" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-39" value="Run validation rules" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-41" target="JusbMAUTRuWRRKYKNHEX-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-41" value="Check land parcel exists" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-43" target="JusbMAUTRuWRRKYKNHEX-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-43" value="Check land parcel is linked to organisation" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-45" target="JusbMAUTRuWRRKYKNHEX-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-45" value="Check land cover is valid for funding option" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-47" target="JusbMAUTRuWRRKYKNHEX-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-47" value="Check land cover is less than or equal to available land cover" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-49" target="JusbMAUTRuWRRKYKNHEX-77" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="470" />
+              <mxPoint x="1330" y="520" />
+              <mxPoint x="1410" y="520" />
+              <mxPoint x="1410" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-49" value="Check Countryside Stewardship compatibility" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-51" target="JusbMAUTRuWRRKYKNHEX-77" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-51" value="Check Environmental Stewardship compatibility" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-53" target="JusbMAUTRuWRRKYKNHEX-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-53" value="Check SSSI" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-55" target="JusbMAUTRuWRRKYKNHEX-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-55" value="Check HEFER" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-57" target="JusbMAUTRuWRRKYKNHEX-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-57" value="Check Inheritance Tax" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-59" target="JusbMAUTRuWRRKYKNHEX-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-59" value="Check insolvency" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="974" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-61" target="JusbMAUTRuWRRKYKNHEX-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-61" value="Check fraud" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-63" target="JusbMAUTRuWRRKYKNHEX-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-63" value="Check Dual Use" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-65" value="Check SFI Pilot compatibility" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-70" value="{&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; description&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; taskDetail: {&lt;br&gt;&amp;nbsp; &amp;nbsp; parcelId&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="80" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-73" value="{&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; description&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; taskDetail: {&lt;br&gt;&amp;nbsp; &amp;nbsp; parcelId&lt;br&gt;&amp;nbsp; &amp;nbsp; standardCode&lt;br&gt;&amp;nbsp; &amp;nbsp; landCoverId&lt;br&gt;&amp;nbsp; &amp;nbsp; landCoverName&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="205" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-75" value="{&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; description&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; taskDetail: {&lt;br&gt;&amp;nbsp; &amp;nbsp; parcelId&lt;br&gt;&amp;nbsp; &amp;nbsp; standardCode&lt;br&gt;&amp;nbsp; &amp;nbsp; landCoverId&lt;br&gt;&amp;nbsp; &amp;nbsp; landCoverName&lt;br&gt;&amp;nbsp; &amp;nbsp; claimedArea&lt;br&gt;&amp;nbsp; &amp;nbsp; eligibleArea&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="300" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-77" value="{&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; description&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; taskDetail: {&lt;br&gt;&amp;nbsp; &amp;nbsp; parcelId&lt;br&gt;&amp;nbsp; &amp;nbsp; standardCode&lt;br&gt;&amp;nbsp; &amp;nbsp; landCoverId&lt;br&gt;&amp;nbsp; &amp;nbsp; landCoverName&lt;br&gt;&amp;nbsp; &amp;nbsp; claimedArea&lt;br&gt;&amp;nbsp; &amp;nbsp; conflictScheme&lt;br&gt;&amp;nbsp; &amp;nbsp; conflictArea&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="500" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-81" value="{&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; description&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; taskDetail: {&lt;br&gt;&amp;nbsp; &amp;nbsp; parcelId&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="675" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-84" value="{&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; description&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&amp;nbsp;&amp;nbsp;&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="957" width="120" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-89" value="{&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; description&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; taskDetail: {&lt;br&gt;&amp;nbsp; &amp;nbsp; parcelId&lt;br&gt;&amp;nbsp; &amp;nbsp; conflictSbi&lt;br&gt;&amp;nbsp; &amp;nbsp; conflictName&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="1101.25" width="120" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-91" target="JusbMAUTRuWRRKYKNHEX-93" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-91" value="Collate warnings" style="whiteSpace=wrap;html=1;rounded=0;fontStyle=0;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-93" target="JusbMAUTRuWRRKYKNHEX-100" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-93" value="Create validation response" style="whiteSpace=wrap;html=1;rounded=0;fontStyle=0;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-95" target="JusbMAUTRuWRRKYKNHEX-96" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-95" value="Close validation incident" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1588" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-96" target="JusbMAUTRuWRRKYKNHEX-105" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-96" target="JusbMAUTRuWRRKYKNHEX-115" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-172" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-96" target="JusbMAUTRuWRRKYKNHEX-171" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-96" value="Send incident closed message" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-100" target="JusbMAUTRuWRRKYKNHEX-95" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-100" value="Create single incident detailing each warning" style="whiteSpace=wrap;html=1;rounded=0;fontStyle=0;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-103" target="JusbMAUTRuWRRKYKNHEX-117" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-103" value="Create record of incidents" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-105" target="JusbMAUTRuWRRKYKNHEX-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-105" value="Update incident record" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-112" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-109" target="JusbMAUTRuWRRKYKNHEX-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-114" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-109" value="All incidents closed?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="1850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-111" value="No action" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-115" target="JusbMAUTRuWRRKYKNHEX-130" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-115" value="View incident" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-117" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="230" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-119" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="750" y="-230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-121" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="750" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-123" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="-230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-127" value="Processor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1850" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-133" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-130" target="JusbMAUTRuWRRKYKNHEX-132" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-135" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-130" target="JusbMAUTRuWRRKYKNHEX-134" edge="1">
+          <mxGeometry x="-0.4062" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="2005" />
+              <mxPoint x="865" y="2200" />
+              <mxPoint x="790" y="2200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-130" value="Does agreement need amending?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="735" y="1950" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-132" target="JusbMAUTRuWRRKYKNHEX-134" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-132" value="Amend agreement" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-134" target="JusbMAUTRuWRRKYKNHEX-137" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-134" value="Close incident" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JusbMAUTRuWRRKYKNHEX-137" target="JusbMAUTRuWRRKYKNHEX-105" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="2380" />
+              <mxPoint x="430" y="1750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-137" value="Send incident closed message" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-142" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-140" target="JusbMAUTRuWRRKYKNHEX-141" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-140" target="JusbMAUTRuWRRKYKNHEX-145" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-140" value="Has agreement changed?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="225" y="2010" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-141" value="Publish updated agreement" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="2025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-145" target="JusbMAUTRuWRRKYKNHEX-146" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-145" value="Request agreement calculation" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="210" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-146" target="JusbMAUTRuWRRKYKNHEX-148" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-146" value="Calculate agreement" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1169" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-148" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-148" value="Sent calculation response" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1169" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-151" target="JusbMAUTRuWRRKYKNHEX-156" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-151" value="Create payment request" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="210" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-152" value="Processor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1975" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-153" value="Processor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="2110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-154" value="Processor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="2230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-156" value="Publish payment request" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="230" y="2690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-163" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-162" target="JusbMAUTRuWRRKYKNHEX-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-164" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-162" target="JusbMAUTRuWRRKYKNHEX-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-165" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-162" target="JusbMAUTRuWRRKYKNHEX-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-162" value="{&amp;nbsp;&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; scheme&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; organisationId&lt;br&gt;&amp;nbsp; agreement: {&lt;br&gt;&amp;nbsp; &amp;nbsp; paymentAmount&lt;br&gt;&amp;nbsp; &amp;nbsp; standards: [{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; id&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; paymentAmount&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; parcels: [{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; id&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; area&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }]&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; actions: [{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; id&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }]&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; }]&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="725" y="-1180" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-167" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-11" target="JusbMAUTRuWRRKYKNHEX-166" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-166" value="{&lt;br&gt;&amp;nbsp; scheme&amp;nbsp;&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; description&lt;br&gt;&amp;nbsp; details: {&lt;br&gt;&amp;nbsp; &amp;nbsp; correlationId&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-103.75" width="120" height="153.75" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-169" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="JusbMAUTRuWRRKYKNHEX-93" target="JusbMAUTRuWRRKYKNHEX-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-168" value="{&amp;nbsp;&lt;br&gt;&amp;nbsp; scheme&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; warnings: [{&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;&amp;nbsp; }]&amp;nbsp;&amp;nbsp;&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="1428.75" width="120" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8O9VE5gzXfqwe-6WKHX3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JusbMAUTRuWRRKYKNHEX-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1906.255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JusbMAUTRuWRRKYKNHEX-171" value="{&lt;br&gt;&amp;nbsp; scheme&amp;nbsp;&lt;br&gt;&amp;nbsp; sbi&lt;br&gt;&amp;nbsp; agreementNumber&lt;br&gt;&amp;nbsp; incidentTypeId&lt;br&gt;&amp;nbsp; remainingIncidents&lt;br&gt;&amp;nbsp; agreement: {...}&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="920" y="1688.44" width="120" height="123.12" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

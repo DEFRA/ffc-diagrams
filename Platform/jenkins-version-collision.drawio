@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2022-07-01T12:43:12.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YXwD1hmkB-06OyEbhVkr" version="20.0.3" type="github">
+  <diagram id="PkDQmxIGIWsEDzeS_bdA" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SztDgOujnsKvbNPGTbHN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="SztDgOujnsKvbNPGTbHN-1" target="SztDgOujnsKvbNPGTbHN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="SztDgOujnsKvbNPGTbHN-1" target="SztDgOujnsKvbNPGTbHN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-1" value="Main&lt;br&gt;1.0.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-7" value="Version check: pass" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SztDgOujnsKvbNPGTbHN-2" target="SztDgOujnsKvbNPGTbHN-6">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-2" value="Feature 1&lt;br&gt;1.1.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-9" value="Version check: pass" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SztDgOujnsKvbNPGTbHN-3" target="SztDgOujnsKvbNPGTbHN-8">
+          <mxGeometry x="-0.5949" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-3" value="Feature 2&lt;br&gt;1.1.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-6" value="Main&lt;br&gt;1.1.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-8" value="Main&lt;br&gt;1.1.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="650" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-10" value="Merge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="170" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-11" value="Merge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="240" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-12" value="No conflicts in changes so no block to merge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-13" value="Last build" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-14" value="Last build" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SztDgOujnsKvbNPGTbHN-15" value="" style="endArrow=none;html=1;rounded=0;curved=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="330" as="sourcePoint" />
+            <mxPoint x="490" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,312 @@
+<mxfile host="app.diagrams.net" modified="2021-08-03T14:30:30.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="vV-Q3KM7r4D94ymoP4t9" version="14.9.3" type="github">
+  <diagram id="1XCgTyp1o_9dvypK1vWQ" name="Page-1">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H4XcM_15EuvaElWjRfmu-53" value="Payment service - Consume return file" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-365" y="1570" width="1605" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-49" value="Payment service - Consume acknowledgements" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-368" y="1450" width="1608" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-42" value="Payment service - Publish payment batches to DAX" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-368" y="1330" width="1608" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-41" value="Payment service - Process payment requests" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-365" y="1190" width="1605" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-39" value="Payment service - Consume payment requests" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-365" y="1060" width="1605" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-30" value="Option 2" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="1083.5" width="668" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-18" value="Option 1 - Payment Batch Processor" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-365" y="940" width="1605" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-64" value="FFC Payment services" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="1360" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-56" value="DAX" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="290" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-12" value="Siti agri" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-385" y="160" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-1" target="kp0Nub5B4hyBBO8Y0ufR-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-1" value="Create payment request / update" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-165" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-2" value="Create payment schedule" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-8" target="kp0Nub5B4hyBBO8Y0ufR-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-8" value="Calculate agreement value" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-365" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-15" target="kp0Nub5B4hyBBO8Y0ufR-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-15" value="Split invoice across ledgers" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="625" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-16" target="kp0Nub5B4hyBBO8Y0ufR-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-16" value="Generate payment file" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="825" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-18" target="kp0Nub5B4hyBBO8Y0ufR-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-18" value="Publish to DAX" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-21" target="kp0Nub5B4hyBBO8Y0ufR-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-21" value="Pay / recover" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1607" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-23" target="kp0Nub5B4hyBBO8Y0ufR-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1867" y="580" />
+              <mxPoint x="685" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-23" value="Create return file" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1807" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-25" target="kp0Nub5B4hyBBO8Y0ufR-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-25" target="kp0Nub5B4hyBBO8Y0ufR-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-25" value="Send confirmation" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-28" target="kp0Nub5B4hyBBO8Y0ufR-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-28" value="Save confirmation" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="625" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-34" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-30" target="kp0Nub5B4hyBBO8Y0ufR-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-30" value="Confirmed?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="845" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-33" target="kp0Nub5B4hyBBO8Y0ufR-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-33" value="Increase due date by 24 hours" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1015" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-36" value="Save return file" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="625" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-37" target="kp0Nub5B4hyBBO8Y0ufR-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-37" value="Determine ledger position" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="425" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-39" target="kp0Nub5B4hyBBO8Y0ufR-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-39" value="Check for due payments" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="25" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-44" target="kp0Nub5B4hyBBO8Y0ufR-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-44" value="Calculate Delta" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="225" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-50" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-48" target="kp0Nub5B4hyBBO8Y0ufR-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-51" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-48" target="kp0Nub5B4hyBBO8Y0ufR-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-48" value="Updated value?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-54" value="Alert" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-57" target="kp0Nub5B4hyBBO8Y0ufR-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-57" value="Validate payment file" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="25" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-60" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-58" target="kp0Nub5B4hyBBO8Y0ufR-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-58" target="kp0Nub5B4hyBBO8Y0ufR-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-58" value="Valid?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-61" value="Alert" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="225" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kp0Nub5B4hyBBO8Y0ufR-65" target="kp0Nub5B4hyBBO8Y0ufR-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kp0Nub5B4hyBBO8Y0ufR-65" value="Save request" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-1" value="Poll for payment file" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-355" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-2" value="Read files from storage in order" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="35" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-4" value="Move file to archive storage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-6" value="Validate file structure" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-8" value="Order payment files by batch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-225" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-9" value="Handle concurrency of file processing" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-95" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-10" value="Validate batch total invoices and value&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Read%20file%20from%20storage%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-100%22%20y%3D%22840%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-12" value="Split file into payment requests" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-13" value="Update next batch sequence id" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="299" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-14" value="Validate invoice header and lines" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="573" y="1108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-15" value="Save batch data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="565" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-16" value="Save request data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="703" y="1108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-17" value="Consume payment request from subscription" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-357" y="1108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-23" value="Check for due payments not on hold and service is active" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-24" value="Save schedule data&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="1108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-25" value="Get previous payment requests for agreement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-26" value="Calculate Delta" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-27" value="Check settlement status from return file data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-28" value="Split invoice across necessary ledgers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-29" value="Map SBI to FRN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-222" y="1109.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-31" value="Map account codes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-32" value="Generate invoice numbers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="443" y="1108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-33" value="Save payment request as ready to batch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-34" value="Check payment requests ready for batch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-35" value="Get next batch sequence number" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-36" value="Create DAX payment file" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-37" value="Add ready payment requests to batch up to 10k" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-38" value="Send payment file to DAX" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-43" value="Poll for acknowledgements" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-355" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-44" value="Poll for return file" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-355" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-45" value="Update payment request as acknowledged" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-46" value="Update payment request as published" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-47" value="If rejected, reschedule" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-48" value="If rejected for missing bank details apply hold" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-50" value="Load return files" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-215" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-51" value="Load acknowledgements" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-215" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-52" value="Update settlement status of payment requests" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-54" value="Payment service - Apply/remove hold" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-365" y="1690" width="1605" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-55" value="Enter SBI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-355" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-56" value="Update schedule as hold / hold removed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-215" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-58" value="Transform to FFC" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="965" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4XcM_15EuvaElWjRfmu-59" value="Publish to payment request topic" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJlkxBlGy3WEgOTqUL9e-1" value="Map delivery body" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="1109.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJlkxBlGy3WEgOTqUL9e-2" value="Map Scheme codes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="1109.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJlkxBlGy3WEgOTqUL9e-3" value="Map Fund codes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="1109.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJlkxBlGy3WEgOTqUL9e-4" value="Map source system to scheme" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-92" y="1108" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

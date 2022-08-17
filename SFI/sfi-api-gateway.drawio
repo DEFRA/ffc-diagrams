@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2022-05-18T14:51:03.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="GukWPSyjPTTj2vFCBmzz" version="18.0.5" type="github">
+  <diagram id="LrsHQlCa1xZIcJ0_PJd1" name="Page-1">
+    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-24" value="Azure&lt;br&gt;(EUTD)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" width="160" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-23" value="Crown Hosting&lt;br&gt;(Horizon)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="380" width="580" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-22" value="Azure&lt;br&gt;(FFC Platform)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry width="160" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BbsBHW8puNuZdJp3A3yY-1" target="BbsBHW8puNuZdJp3A3yY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-1" value="SFI Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="65" y="184" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BbsBHW8puNuZdJp3A3yY-3" target="BbsBHW8puNuZdJp3A3yY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-3" value="EUTD APIM" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-4" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="265" y="184" width="30" height="27.69" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BbsBHW8puNuZdJp3A3yY-5" target="BbsBHW8puNuZdJp3A3yY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-5" value="KITS API Gateway" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
+          <mxGeometry x="465" y="184" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BbsBHW8puNuZdJp3A3yY-10" target="BbsBHW8puNuZdJp3A3yY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BbsBHW8puNuZdJp3A3yY-10" target="BbsBHW8puNuZdJp3A3yY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BbsBHW8puNuZdJp3A3yY-10" target="BbsBHW8puNuZdJp3A3yY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-10" value="Version 1 API Gatway" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-12" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
+          <mxGeometry x="665" y="184" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-13" value="Siti Agri" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-15" value="Rural Payments" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-16" value="LMS" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-crown-128.png" vertex="1" parent="1">
+          <mxGeometry x="865" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-crown-128.png" vertex="1" parent="1">
+          <mxGeometry x="865" y="184" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BbsBHW8puNuZdJp3A3yY-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-crown-128.png" vertex="1" parent="1">
+          <mxGeometry x="865" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net" modified="2021-07-12T11:26:13.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="JHP7iyFRdWxzc8r_Jj40" version="14.8.0" type="github">
+  <diagram id="OQRmCLdSInqNcVnTIT0T" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-1" value="Web&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-2" value="Calculation Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-3" value="Web&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-4" value="Calculation Service&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-5" value="Agreement Viewer&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-6" value="Fraud Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-10" value="Problem:&lt;br&gt;&lt;ul&gt;&lt;li&gt;how should an instance of the web service notify all services of a calculation request?&lt;/li&gt;&lt;li&gt;how should an instance of the calculation service return a response to instance of the web service with the user&#39;s active session?&lt;/li&gt;&lt;li&gt;how would the chosen option tolerate failure of a replica?&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-11" target="1va6tFVm9_dhpKcYIYKP-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="720" />
+              <mxPoint x="220" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-11" target="1va6tFVm9_dhpKcYIYKP-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="720" />
+              <mxPoint x="220" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-11" value="Web&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-34" value="Response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-12" target="1va6tFVm9_dhpKcYIYKP-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-12" value="Calculation Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-13" value="Web&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-14" value="Calculation Service&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-15" value="Agreement Viewer&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-16" value="Fraud Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-17" value="Option 1: Synchronous&lt;br&gt;&lt;ul&gt;&lt;li&gt;request originates from web service&lt;/li&gt;&lt;li&gt;web service sends request to every service in different requests&lt;/li&gt;&lt;li&gt;calculation service responds with calculation&lt;/li&gt;&lt;li&gt;gateway load balances different replicas&lt;/li&gt;&lt;li&gt;not fault tolerant&lt;/li&gt;&lt;li&gt;web service must be aware of all consumers&lt;/li&gt;&lt;li&gt;consuming services also need web framework and configuration&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="630" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-31" value="Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-24" target="1va6tFVm9_dhpKcYIYKP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-24" target="1va6tFVm9_dhpKcYIYKP-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1220" />
+              <mxPoint x="220" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-24" value="Web&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-36" value="Response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-25" target="1va6tFVm9_dhpKcYIYKP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-25" value="Calculation Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-26" value="Web&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-27" value="Calculation Service&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-28" value="Agreement Viewer&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-29" value="Fraud Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-30" value="Option 2: hybrid&lt;br&gt;&lt;ul&gt;&lt;li&gt;request originates from web service&lt;/li&gt;&lt;li&gt;web service sends synchronous request to calculation service&lt;/li&gt;&lt;li&gt;calculation service responds with calculation&lt;/li&gt;&lt;li&gt;web service sends request to topic for services we don&#39;t need response from&lt;/li&gt;&lt;li&gt;better fault tolerance for asnyc&lt;/li&gt;&lt;li&gt;no fault tolerance for calculation request&lt;/li&gt;&lt;li&gt;web service must be aware of all synchronous consumers&lt;/li&gt;&lt;li&gt;calculation services also need web framework and configuration&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1110" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-18" value="Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-11" target="1va6tFVm9_dhpKcYIYKP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-37" target="1va6tFVm9_dhpKcYIYKP-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-37" target="1va6tFVm9_dhpKcYIYKP-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-37" value="Topic" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;verticalAlign=top;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="178" y="1445" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-55" target="1va6tFVm9_dhpKcYIYKP-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-68" value="Poll" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-55" target="1va6tFVm9_dhpKcYIYKP-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-55" value="Web&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-56" value="Calculation Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-57" value="Web&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-58" value="Calculation Service&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-59" value="Agreement Viewer&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-60" value="Fraud Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-61" value="Option 3: Polling&lt;br&gt;&lt;ul&gt;&lt;li&gt;web service sends single async request&lt;/li&gt;&lt;li&gt;all consumers subscribe to topic with session Id as correlation Id&lt;/li&gt;&lt;li&gt;web service polls for response from calculation service for correlation Id&lt;/li&gt;&lt;li&gt;more fault tolerant&lt;/li&gt;&lt;li&gt;easier to add new consumers&lt;/li&gt;&lt;li&gt;calculation service needs web framework&lt;/li&gt;&lt;li&gt;web service needs to be aware of calculation service&lt;/li&gt;&lt;li&gt;risk polling timeout exceeded&lt;/li&gt;&lt;li&gt;polling is bespoke code that must be maintained&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1740" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-62" target="1va6tFVm9_dhpKcYIYKP-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-62" target="1va6tFVm9_dhpKcYIYKP-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1650" />
+              <mxPoint x="260" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-62" target="1va6tFVm9_dhpKcYIYKP-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1650" />
+              <mxPoint x="260" y="1890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-62" target="1va6tFVm9_dhpKcYIYKP-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1650" />
+              <mxPoint x="260" y="2010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-62" value="Topic" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;verticalAlign=top;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="178" y="1635" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-71" target="1va6tFVm9_dhpKcYIYKP-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-71" value="Web&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="78" y="2100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-72" target="1va6tFVm9_dhpKcYIYKP-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="318" y="2195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-72" value="Calculation Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="278" y="2100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-73" value="Web&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="78" y="2220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-74" value="Calculation Service&lt;br&gt;(Replica 2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="278" y="2220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-75" value="Agreement Viewer&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="278" y="2340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-76" value="Fraud Service&lt;br&gt;(Replica 1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="278" y="2460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-81" target="1va6tFVm9_dhpKcYIYKP-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-81" target="1va6tFVm9_dhpKcYIYKP-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="258" y="2140" />
+              <mxPoint x="258" y="2260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-81" target="1va6tFVm9_dhpKcYIYKP-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="258" y="2140" />
+              <mxPoint x="258" y="2380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-81" target="1va6tFVm9_dhpKcYIYKP-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="258" y="2140" />
+              <mxPoint x="258" y="2500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-81" value="Topic" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;verticalAlign=top;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="176" y="2125" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-82" value="Option 4: Async sessions&lt;br&gt;&lt;ul&gt;&lt;li&gt;web service sends single async request&lt;/li&gt;&lt;li&gt;all consumers subscribe to topic with session Id as correlation Id&lt;/li&gt;&lt;li&gt;calculation service sends request to session enabled queue with correlation Id as session Id&lt;/li&gt;&lt;li&gt;web service consumes message from session queue for session Id&lt;/li&gt;&lt;li&gt;no back end service needs web framework&lt;/li&gt;&lt;li&gt;only web replica with active session consumes message&lt;/li&gt;&lt;li&gt;fault tolerant&lt;/li&gt;&lt;li&gt;easy to add new consumers&lt;/li&gt;&lt;li&gt;web service is not aware of any other service&lt;/li&gt;&lt;li&gt;timeouts managed by PaaS service&lt;/li&gt;&lt;li&gt;easier to scale&lt;/li&gt;&lt;li&gt;risk that message timeout exceeded&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2190" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1va6tFVm9_dhpKcYIYKP-83" target="1va6tFVm9_dhpKcYIYKP-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="2195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1va6tFVm9_dhpKcYIYKP-83" value="Session&lt;br style=&quot;font-size: 10px;&quot;&gt;Queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;verticalAlign=top;direction=north;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="178" y="2180" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
