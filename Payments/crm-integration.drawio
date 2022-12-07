@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T10:55:05.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="qCmstUdinXYKOxWf4byG" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T12:44:38.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="366YnqIjfc3QgoJaARn-" type="github">
   <diagram id="NyjREOpPi2_mINMXHywp" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,6 +147,78 @@
         </mxCell>
         <mxCell id="bxlz0GFL15QO7oBelsAY-64" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png;" vertex="1" parent="1">
           <mxGeometry x="900" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-65" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="134.50000000000003" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-67" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="611" y="72" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-69" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="836" y="104.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-70" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-71" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="833" y="303" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-72" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="560" y="303" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-73" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="394" y="303" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-74" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="215" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-75" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-76" value="Payment statement generated and published to Azure Blob Storage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="455" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-77" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="490" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-78" value="Notification of payment statement generation published to Azure Service Bus topic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="485" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-79" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="520" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-80" value="Azure Logic App subscribes to Azure Service Bus subscription, updates link in body to redirect to CRM Retrieval Logic App and creates record in CRM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="515" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-81" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-82" value="User clicks link in CRM which directs user to Azure Logic App" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="545" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-83" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="580" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-84" value="Azure Logic App authenticates users in appropriate security group, remaps link to original, and routes request to Azure App Gateway&amp;nbsp; (resolved by Azure DNS)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="575" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-85" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="610" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-86" value="Azure App Gateway listener routes request to Azure Kubernetes Service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="605" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-87" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="640" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-88" value="NGINX Ingress Controller routes request to Statement receiver through internal Kubernetes network" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="635" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-89" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="670" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-90" value="Statement receiver returns statement as response to request.&amp;nbsp; Will source PDF from cache if available, otherwise will retrieve from Azure Blob Storage and update cache" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="665" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
