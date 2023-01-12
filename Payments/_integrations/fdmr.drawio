@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T16:06:52.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="LvUaXrGBRHL00QQb0M1j" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T10:11:13.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="tDd-0aIv0ivKDRgAbOt6" version="20.8.3" type="github">
   <diagram id="ShwQF7LgR1bRyA7x9rF5" name="Page-1">
     <mxGraphModel dx="3915" dy="-1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -248,6 +248,44 @@
         </mxCell>
         <mxCell id="ZrM5srr46ZaAthHVGwC5-65" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="-1990" y="3500" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-88" value="Enrichment&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1241.63" y="3260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-89" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1186.63" y="3300" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-93" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1101.63" y="3294.29" as="sourcePoint" />
+            <mxPoint x="-1013.2600000000002" y="3294.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-95" value="FDMR database&lt;br&gt;(Existing )" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1241.63" y="3538" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-96" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_sql_server_instance;" vertex="1" parent="1">
+          <mxGeometry x="-1186.63" y="3576" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-99" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/2048px-.NET_Logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-1505" y="3658" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-103" value="Cron job set to same schedule as existing SQL Server Agent job.&amp;nbsp; Retrieve all FDMR payments ready and route to enrichment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="3400" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="ZrM5srr46ZaAthHVGwC5-106" target="ZrM5srr46ZaAthHVGwC5-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="ZrM5srr46ZaAthHVGwC5-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1172" y="3330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-106" value="FDMR Adapter&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1241.63" y="3400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrM5srr46ZaAthHVGwC5-107" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1186.63" y="3440" width="30" height="26.47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
