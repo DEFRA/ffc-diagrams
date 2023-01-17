@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T14:22:25.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="zMjxtlEWzOx75LBC7nif" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T09:11:49.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="Oanv1lNzeYHRQ1rKLSnc" type="github">
   <diagram id="sQuSlrcKvVO8Q4xEA5H8" name="Page-1">
-    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,6 +93,48 @@
         </mxCell>
         <mxCell id="2WWt8Vpvchj_IaDbux5o-28" value="Validate co-financing rate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-31" value="Payment Service&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="610.75" y="1170" width="399.25" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2WWt8Vpvchj_IaDbux5o-43" target="2WWt8Vpvchj_IaDbux5o-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-43" value="Batch Processor" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-44" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="695" y="1238.87" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-45" value="Enrichment" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="844.3699999999999" y="1210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-46" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="899.3699999999999" y="1238.87" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-54" value="Validate batch contents and convert into individual payment requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1285" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2WWt8Vpvchj_IaDbux5o-58" target="2WWt8Vpvchj_IaDbux5o-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-58" value="Genesis" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-67" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/en/e/e4/Rural_Payments_Agency.png;" vertex="1" parent="1">
+          <mxGeometry x="263" y="1237.38" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2WWt8Vpvchj_IaDbux5o-71" target="2WWt8Vpvchj_IaDbux5o-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-71" value="Managed Gateway" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="435.25" y="1210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-72" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.network_file_share_service;fontSize=12;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490.25" y="1236.4300000000003" width="30" height="28.91" as="geometry" />
+        </mxCell>
+        <mxCell id="2WWt8Vpvchj_IaDbux5o-77" value="Enrichment and validation of individual payment requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="844.37" y="1285" width="150" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
