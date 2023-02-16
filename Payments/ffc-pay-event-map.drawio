@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T14:01:08.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" version="20.8.20" etag="lKxINsckDgyQmbJrbQUK" type="github"><diagram name="Page-1" id="D2aRHz8PbQ4kBPc9BzQ8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-16T14:20:09.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="4eCXnL0WdZCfB5L27zUj" version="20.8.20" type="github">
+  <diagram name="Page-1" id="D2aRHz8PbQ4kBPc9BzQ8">
+    <mxGraphModel dx="2877" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-1" target="xI4F5Sk90rTfBBiXriHL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-1" target="xI4F5Sk90rTfBBiXriHL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-1" value="uk.gov.defra.ffc.pay.payment-request.enriched" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-2" value="uk.gov.defra.ffc.pay.payment-request.rejected" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-3" target="xI4F5Sk90rTfBBiXriHL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-3" target="xI4F5Sk90rTfBBiXriHL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-3" value="uk.gov.defra.ffc.pay.payment-request.received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="358" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-4" value="ffc-pay-enrichment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-7" target="xI4F5Sk90rTfBBiXriHL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-7" value="uk.gov.defra.ffc.pay.payment-request.processed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-9" target="xI4F5Sk90rTfBBiXriHL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-9" value="uk.gov.defra.ffc.pay.payment-request.submitted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="780" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-11" target="xI4F5Sk90rTfBBiXriHL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-11" value="uk.gov.defra.ffc.pay.payment-request.published" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-14" target="xI4F5Sk90rTfBBiXriHL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-14" value="uk.gov.defra.ffc.pay.payment-request.resumed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-15" target="xI4F5Sk90rTfBBiXriHL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-15" target="xI4F5Sk90rTfBBiXriHL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-15" value="uk.gov.defra.ffc.pay.payment-request.paused" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-20" target="xI4F5Sk90rTfBBiXriHL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-20" value="uk.gov.defra.ffc.pay.payment-request.acknowledged" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="320" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-22" value="uk.gov.defra.ffc.pay.payment-request.settled" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="320" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xI4F5Sk90rTfBBiXriHL-24" target="xI4F5Sk90rTfBBiXriHL-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-24" value="uk.gov.defra.ffc.pay.payment-request.debt.enriched" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="80" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-27" value="uk.gov.defra.ffc.pay.payment-request.processed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-28" value="uk.gov.defra.ffc.pay.payment-request.resumed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-29" value="uk.gov.defra.ffc.pay.payment-request.paused" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-30" value="uk.gov.defra.ffc.pay.payment-request.debt.enriched" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="80" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-31" value="uk.gov.defra.ffc.pay.payment-request.submitted" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4F5Sk90rTfBBiXriHL-32" value="uk.gov.defra.ffc.pay.payment-request.published" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
