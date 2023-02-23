@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T09:45:58.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="wJ_PkJcj2xP9QA4TqWlS" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T09:47:30.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="0e8bJfdpfp9NjxCnQT7o" version="20.8.21" type="github">
   <diagram id="_1_elZYSAHYm358-CXUI" name="Page-1">
     <mxGraphModel dx="5335" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -500,7 +500,7 @@
         <mxCell id="aJzjxi-ZNmAxXNC5rnsm-10" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
           <mxGeometry x="-1607.25" y="1496.17" width="30" height="26.47" as="geometry" />
         </mxCell>
-        <mxCell id="Dezm08wWaW3rp9LncF0e-1" value="Payment Service&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="Dezm08wWaW3rp9LncF0e-1" value="Strategic Payment Service&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-2650" y="1970" width="1160" height="710" as="geometry" />
         </mxCell>
         <mxCell id="Dezm08wWaW3rp9LncF0e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Dezm08wWaW3rp9LncF0e-3" target="Dezm08wWaW3rp9LncF0e-6" edge="1">
