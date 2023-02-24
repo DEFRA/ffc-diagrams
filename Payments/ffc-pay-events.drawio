@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T09:32:19.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="eUuS2CkvguA-6kxNzVX6" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T09:33:41.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="teb3dpVsyhGsIhgM3END" version="20.8.23" type="github">
   <diagram id="JAUS7llx8-0UdaqlXuOL" name="Page-1">
     <mxGraphModel dx="2027" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,32 +119,39 @@
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MnYAPauBsMX0hl_VpqK3-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="725" as="targetPoint" />
+            <mxPoint x="250" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-2" value="FFC Pay services" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="10" y="695" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="55" y="720" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="55" y="855" width="30" height="26.47" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-4" value="ffc-pay-events" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
-          <mxGeometry x="180" y="690" width="30" height="30" as="geometry" />
+          <mxGeometry x="180" y="825" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MnYAPauBsMX0hl_VpqK3-5" target="MnYAPauBsMX0hl_VpqK3-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="MnYAPauBsMX0hl_VpqK3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="MnYAPauBsMX0hl_VpqK3-5" target="MnYAPauBsMX0hl_VpqK3-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-5" value="ffc-pay-event-hub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="250" y="695" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="295" y="720" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="295" y="855" width="30" height="26.47" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-7" value="payeventstore" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="440" y="695" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="485" y="722" width="30" height="27" as="geometry" />
+          <mxGeometry x="485" y="857" width="30" height="27" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MnYAPauBsMX0hl_VpqK3-10" target="MnYAPauBsMX0hl_VpqK3-7">
           <mxGeometry relative="1" as="geometry" />
@@ -153,19 +160,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-10" value="ffc-pay-data-hub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="630" y="695" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="675" y="720" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="675" y="855" width="30" height="26.47" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MnYAPauBsMX0hl_VpqK3-12" target="MnYAPauBsMX0hl_VpqK3-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-12" value="ffc-pay-web" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="827" y="695" width="120" height="60" as="geometry" />
+          <mxGeometry x="827" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-13" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="872" y="720" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="872" y="855" width="30" height="26.47" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="MnYAPauBsMX0hl_VpqK3-16" target="MnYAPauBsMX0hl_VpqK3-7">
           <mxGeometry relative="1" as="geometry" />
@@ -174,19 +181,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-16" value="ffc-pay-report-generator" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="440" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="955" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-17" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="485" y="845" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="485" y="980" width="30" height="26.47" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/37.Stopwatch-128.png;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="470" y="790" width="30" height="30" as="geometry" />
+          <mxGeometry x="470" y="925" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-22" value="reports" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="630" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="955" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-23" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="675" y="847" width="30" height="27" as="geometry" />
+          <mxGeometry x="675" y="982" width="30" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYAPauBsMX0hl_VpqK3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="MnYAPauBsMX0hl_VpqK3-26" target="MnYAPauBsMX0hl_VpqK3-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYAPauBsMX0hl_VpqK3-26" value="ffc-pay-alert-publisher" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="440" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYAPauBsMX0hl_VpqK3-27" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="485" y="740" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYAPauBsMX0hl_VpqK3-29" value="ffc-pay-alerting" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="350" y="710" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYAPauBsMX0hl_VpqK3-30" value="GOV.UK notify" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYAPauBsMX0hl_VpqK3-31" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.email;fillColor=#D9A741;gradientColor=none;fontSize=12;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="675" y="741.85" width="30" height="22.78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
