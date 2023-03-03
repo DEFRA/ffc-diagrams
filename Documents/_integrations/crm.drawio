@@ -1,0 +1,226 @@
+<mxfile host="app.diagrams.net" modified="2022-12-07T12:44:38.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="366YnqIjfc3QgoJaARn-" type="github">
+  <diagram id="NyjREOpPi2_mINMXHywp" name="Page-1">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bxlz0GFL15QO7oBelsAY-62" value="Azure Tenant&lt;br&gt;&lt;b&gt;Defra&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="760" y="10" width="310" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-61" value="Azure Tenant&lt;br&gt;&lt;b&gt;DefraCloud&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="10" width="1060" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-34" value="&lt;font size=&quot;1&quot;&gt;Azure Kubernetes Service (AKS)&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="70" width="630" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-35" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="150" y="92" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-33" value="&lt;font size=&quot;1&quot;&gt;Statement Receiver&lt;br&gt;&lt;b&gt;ffc-pay-statement-receiver&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="200" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-1" value="Payment statement storage&lt;br&gt;&lt;b&gt;statements/outbound&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="239.8" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=9;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="270.8" width="30" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-3" target="bxlz0GFL15QO7oBelsAY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-3" value="Statement Generator&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;ffc-pay-statement-generator&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="105" y="128.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-6" target="bxlz0GFL15QO7oBelsAY-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="268.8" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;dashed=1;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-6" target="bxlz0GFL15QO7oBelsAY-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-6" value="Statement Receiver&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Pod&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-8" target="bxlz0GFL15QO7oBelsAY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-8" value="CRM Insert Logic" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="781" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-10" target="bxlz0GFL15QO7oBelsAY-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1001" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-10" value="Dynamics 365&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;CRM&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="941" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA5NiA5NiIgaGVpZ2h0PSI5NiIgd2lkdGg9Ijk2Ij4mI3hhOzxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMCkiPiYjeGE7PG1hc2sgaGVpZ2h0PSI4NSIgd2lkdGg9Ijk2IiB5PSI2IiB4PSIwIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBpZD0ibWFzazAiPiYjeGE7PHBhdGggZmlsbD0idXJsKCNwYWludDBfbGluZWFyKSIgZD0iTTQgNkgyOS40OTQyQzMwLjY0NDggNiAzMS43Mzk3IDYuNDk1NDcgMzIuNDk5MSA3LjM1OTgyTDQ4LjAwMTYgMjUuMDAzOUw2My41MDA5IDcuMzYwMTFDNjQuMjYwMyA2LjQ5NTU4IDY1LjM1NTMgNiA2Ni41MDYgNkg5MkM5NC4yMDkxIDYgOTYgNy43OTA4NiA5NiAxMFYzNC45MTI2Qzk2IDM1Ljg3MDcgOTUuNjU2MiAzNi43OTY5IDk1LjAzMSAzNy41MjI4TDUxLjAzMSA4OC42MTk1QzQ5LjQzNTMgOTAuNDcyOSA0Ni41NjQ2IDkwLjQ3MyA0NC45Njg3IDg4LjYxOTdMMC45Njg5MTEgMzcuNTIyOEMwLjM0MzgwOSAzNi43OTY5IDAgMzUuODcwNyAwIDM0LjkxMjdWMTBDMCA3Ljc5MDg2IDEuNzkwODYgNiA0IDZaIi8+JiN4YTs8L21hc2s+JiN4YTs8ZyBtYXNrPSJ1cmwoI21hc2swKSI+JiN4YTs8cGF0aCBmaWxsPSJ1cmwoI3BhaW50MV9saW5lYXIpIiBkPSJNNjYuNTA2IDZIOTJDOTQuMjA5MSA2IDk2IDcuNzkwODYgOTYgMTBWMzQuOTEyNkM5NiAzNS44NzA3IDk1LjY1NjIgMzYuNzk2OSA5NS4wMzEgMzcuNTIyOEw1MS4wMzEgODguNjE3QzQ5LjQzNTIgOTAuNDcwMSA0Ni41NjQ4IDkwLjQ3MDEgNDQuOTY5IDg4LjYxN0wxOC44MDc2IDU4LjIzNzNMNjMuNTAwOSA3LjM2MDExQzY0LjI2MDMgNi40OTU1OCA2NS4zNTUzIDYgNjYuNTA2IDZaIi8+JiN4YTs8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mKSIgb3BhY2l0eT0iMC4zMiI+JiN4YTs8cGF0aCBmaWxsPSJibGFjayIgZD0iTTI5LjQ5NDIgOEg0QzEuNzkwODYgOCAwIDkuNzkwODYgMCAxMlYzNi45MTI3QzAgMzcuODcwNyAwLjM0MzgwOSAzOC43OTY5IDAuOTY4OTExIDM5LjUyMjhMNDQuOTY4NyA5MC42MTk3QzQ2LjU2NDYgOTIuNDczIDQ5LjQzNTMgOTIuNDcyOSA1MS4wMzEgOTAuNjE5NUw3Ny4xOTUzIDYwLjIzMDVMMzIuNDk5MSA5LjM1OTgyQzMxLjczOTcgOC40OTU0NyAzMC42NDQ4IDggMjkuNDk0MiA4WiIvPiYjeGE7PC9nPiYjeGE7PGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZikiPiYjeGE7PHBhdGggZmlsbC1vcGFjaXR5PSIwLjI0IiBmaWxsPSJibGFjayIgZD0iTTI5LjQ5NDIgNi4zOEg0QzEuNzkwODYgNi4zOCAwIDguMTcwODcgMCAxMC4zOFYzNS4yOTI3QzAgMzYuMjUwNyAwLjM0MzgwOSAzNy4xNzY5IDAuOTY4OTExIDM3LjkwMjhMNDQuOTY4NyA4OC45OTk3QzQ2LjU2NDYgOTAuODUzMSA0OS40MzUzIDkwLjg1MyA1MS4wMzEgODguOTk5NUw3Ny4xOTUzIDU4LjYxMDVMMzIuNDk5MSA3LjczOTgyQzMxLjczOTcgNi44NzU0NyAzMC42NDQ4IDYuMzggMjkuNDk0MiA2LjM4WiIvPiYjeGE7PC9nPiYjeGE7PHBhdGggZmlsbD0idXJsKCNwYWludDJfbGluZWFyKSIgZD0iTTI5LjQ5NDIgNkg0QzEuNzkwODYgNiAwIDcuNzkwODYgMCAxMFYzNC45MTI3QzAgMzUuODcwNyAwLjM0MzgwOSAzNi43OTY5IDAuOTY4OTExIDM3LjUyMjhMNDQuOTY4NyA4OC42MTk3QzQ2LjU2NDYgOTAuNDczIDQ5LjQzNTMgOTAuNDcyOSA1MS4wMzEgODguNjE5NUw3Ny4xOTUzIDU4LjIzMDVMMzIuNDk5MSA3LjM1OTgyQzMxLjczOTcgNi40OTU0NyAzMC42NDQ4IDYgMjkuNDk0MiA2WiIvPiYjeGE7PHBhdGggZmlsbD0idXJsKCNwYWludDNfbGluZWFyKSIgZD0iTTQ4LjAwMTYgMjUuMDAzOUwxOC44MDc2IDU4LjIzNzNMNDQuOTY5IDg4LjYxN0M0Ni41NjQ4IDkwLjQ3MDEgNDkuNDM1MiA5MC40NzAxIDUxLjAzMSA4OC42MTdMNjEuNjA4NCA3Ni4zMzQyTDc3LjE5NTMgNTguMjMwNUw0OC4wMDE2IDI1LjAwMzlaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPiYjeGE7PC9nPiYjeGE7PC9nPiYjeGE7PGRlZnM+JiN4YTs8ZmlsdGVyIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBoZWlnaHQ9IjEwMC4wMSIgd2lkdGg9IjkzLjE5NTMiIHk9IjAiIHg9Ii04IiBpZD0iZmlsdGVyMF9mIj4mI3hhOzxmZUZsb29kIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4IiBmbG9vZC1vcGFjaXR5PSIwIi8+JiN4YTs8ZmVCbGVuZCByZXN1bHQ9InNoYXBlIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgaW49IlNvdXJjZUdyYXBoaWMiIG1vZGU9Im5vcm1hbCIvPiYjeGE7PGZlR2F1c3NpYW5CbHVyIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1ciIgc3RkRGV2aWF0aW9uPSI0Ii8+JiN4YTs8L2ZpbHRlcj4mI3hhOzxmaWx0ZXIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGhlaWdodD0iODUuNTI5NyIgd2lkdGg9Ijc4LjcxNTMiIHk9IjUuNjIiIHg9Ii0wLjc2IiBpZD0iZmlsdGVyMV9mIj4mI3hhOzxmZUZsb29kIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4IiBmbG9vZC1vcGFjaXR5PSIwIi8+JiN4YTs8ZmVCbGVuZCByZXN1bHQ9InNoYXBlIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgaW49IlNvdXJjZUdyYXBoaWMiIG1vZGU9Im5vcm1hbCIvPiYjeGE7PGZlR2F1c3NpYW5CbHVyIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1ciIgc3RkRGV2aWF0aW9uPSIwLjM4Ii8+JiN4YTs8L2ZpbHRlcj4mI3hhOzxsaW5lYXJHcmFkaWVudCBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeTI9IjY0LjI1NzgiIHgyPSI1MS4wMDA3IiB5MT0iLTE5IiB4MT0iLTIxLjUiIGlkPSJwYWludDBfbGluZWFyIj4mI3hhOzxzdG9wIHN0b3AtY29sb3I9IiNFQkM3RkYiLz4mI3hhOzxzdG9wIHN0b3AtY29sb3I9IiNFNEI0RkYiIG9mZnNldD0iMC40OTM0NTIiLz4mI3hhOzwvbGluZWFyR3JhZGllbnQ+JiN4YTs8bGluZWFyR3JhZGllbnQgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHkyPSI4OS40ODU3IiB4Mj0iOTEuMTg0OCIgeTE9Ii0zLjk5OTk5IiB4MT0iMjgiIGlkPSJwYWludDFfbGluZWFyIj4mI3hhOzxzdG9wIHN0b3AtY29sb3I9IiM4NjYxQzUiLz4mI3hhOzxzdG9wIHN0b3AtY29sb3I9IiM1QzQyOEIiIG9mZnNldD0iMSIvPiYjeGE7PC9saW5lYXJHcmFkaWVudD4mI3hhOzxsaW5lYXJHcmFkaWVudCBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeTI9IjY0LjI1NzgiIHgyPSI1MS4wMDA3IiB5MT0iLTE5IiB4MT0iLTIxLjUiIGlkPSJwYWludDJfbGluZWFyIj4mI3hhOzxzdG9wIHN0b3AtY29sb3I9IiNFQkM3RkYiLz4mI3hhOzxzdG9wIHN0b3AtY29sb3I9IiNFNEI0RkYiIG9mZnNldD0iMC40OTM0NTIiLz4mI3hhOzwvbGluZWFyR3JhZGllbnQ+JiN4YTs8bGluZWFyR3JhZGllbnQgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHkyPSIxMTYuNjcyIiB4Mj0iMzQuNTMzOSIgeTE9IjIuNTM0NzYiIHgxPSItNi4xNjYzMyIgaWQ9InBhaW50M19saW5lYXIiPiYjeGE7PHN0b3Agc3RvcC1jb2xvcj0iI0NEOUVGMCIvPiYjeGE7PHN0b3Agc3RvcC1jb2xvcj0iIzlGNzVEMyIgb2Zmc2V0PSIwLjg5NDE4NyIvPiYjeGE7PC9saW5lYXJHcmFkaWVudD4mI3hhOzxjbGlwUGF0aCBpZD0iY2xpcDAiPiYjeGE7PHJlY3QgZmlsbD0id2hpdGUiIGhlaWdodD0iOTYiIHdpZHRoPSI5NiIvPiYjeGE7PC9jbGlwUGF0aD4mI3hhOzwvZGVmcz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="986" y="157.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-14" target="bxlz0GFL15QO7oBelsAY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-14" value="Azure Application Gateway" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-16" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" vertex="1" parent="1">
+          <mxGeometry x="555" y="261" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-19" target="bxlz0GFL15QO7oBelsAY-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-19" value="NGINX Ingress Controller" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="345" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="390" y="261" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-21" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=pod;fontSize=8;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="270" width="30" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-22" target="bxlz0GFL15QO7oBelsAY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-22" value="Statement Receiver&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Cluster IP service&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240.00000000000003" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-26" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=svc;fontSize=8;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="85" y="270.2" width="30" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-27" target="bxlz0GFL15QO7oBelsAY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-27" value="Statement Receiver&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Ingress&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-29" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=ing;fontSize=8;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="235" y="270" width="30" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-40" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=pod;fontSize=8;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="158.7" width="30" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-42" value="Azure Service Bus" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="511" y="100.24" width="220" height="126.76" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-43" target="bxlz0GFL15QO7oBelsAY-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-43" value="Topic&lt;br&gt;&lt;b&gt;ffc-pay-statement-crm&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=9;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="551" y="143.47" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-44" target="bxlz0GFL15QO7oBelsAY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-44" value="Subscription&lt;br&gt;&lt;b&gt;crm&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=9;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="656" y="143.47" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-3" target="bxlz0GFL15QO7oBelsAY-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-47" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/internet_of_things/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="826" y="148" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="bxlz0GFL15QO7oBelsAY-52" target="bxlz0GFL15QO7oBelsAY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-52" value="CRM Retrieval Logic" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="781" y="239.8" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-53" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/internet_of_things/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="826" y="259.8" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-56" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/699147-icon-70-document-file-pdf-128.png;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="70" y="124.50000000000001" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-58" value="Statement cache&lt;br&gt;&lt;b&gt;ffc-pay-statement-receiver&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-59" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="380" width="30" height="25.2" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-63" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="205" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-64" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="900" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-65" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="134.50000000000003" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-67" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="611" y="72" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-69" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="836" y="104.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-70" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-71" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="833" y="303" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-72" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="560" y="303" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-73" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="394" y="303" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-74" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="215" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-75" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-76" value="Payment statement generated and published to Azure Blob Storage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="455" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-77" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="490" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-78" value="Notification of payment statement generation published to Azure Service Bus topic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="485" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-79" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="520" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-80" value="Azure Logic App subscribes to Azure Service Bus subscription, updates link in body to redirect to CRM Retrieval Logic App and creates record in CRM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="515" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-81" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-82" value="User clicks link in CRM which directs user to Azure Logic App" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="545" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-83" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="580" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-84" value="Azure Logic App authenticates users in appropriate security group, remaps link to original, and routes request to Azure App Gateway&amp;nbsp; (resolved by Azure DNS)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="575" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-85" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="610" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-86" value="Azure App Gateway listener routes request to Azure Kubernetes Service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="605" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-87" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="640" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-88" value="NGINX Ingress Controller routes request to Statement receiver through internal Kubernetes network" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="635" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-89" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="670" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxlz0GFL15QO7oBelsAY-90" value="Statement receiver returns statement as response to request.&amp;nbsp; Will source PDF from cache if available, otherwise will retrieve from Azure Blob Storage and update cache" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="665" width="360" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

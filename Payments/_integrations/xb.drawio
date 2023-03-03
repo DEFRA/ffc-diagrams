@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" modified="2023-01-12T10:11:21.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="eswE0o-ggsYBYBzocHjP" version="20.8.3" type="github">
+  <diagram id="_1_elZYSAHYm358-CXUI" name="Page-1">
+    <mxGraphModel dx="3915" dy="-1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAbmCknAVA3ey4TZSJ3U-26" target="IAbmCknAVA3ey4TZSJ3U-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-26" value="Devolved Regions" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-1770" y="2923" width="140" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-4" value="Cross Border Adapter&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="2590" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Dezm08wWaW3rp9LncF0e-19" target="0dZC8Tv51BrnFE1N7XIH-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dezm08wWaW3rp9LncF0e-19" value="Processing&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-1311.63" y="2360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dezm08wWaW3rp9LncF0e-20" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="-1256.63" y="2400" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0dZC8Tv51BrnFE1N7XIH-3" target="0dZC8Tv51BrnFE1N7XIH-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-3" value="Outbound" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-1400" y="2630" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" target="Dezm08wWaW3rp9LncF0e-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1400" y="2395" as="sourcePoint" />
+            <mxPoint x="-1470" y="2480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1171.63" y="2394.29" as="sourcePoint" />
+            <mxPoint x="-1083.2600000000002" y="2394.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-9" value="Convert payment request from JSON to XML and insert into SQL Server messages table" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1560" y="2590" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-10" value="Cross Border Database&lt;br&gt;(Existing)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-1400" y="2720" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-12" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_sql_server_instance;" parent="1" vertex="1">
+          <mxGeometry x="-1345" y="2758" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="0dZC8Tv51BrnFE1N7XIH-13" target="0dZC8Tv51BrnFE1N7XIH-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Cross Border Payment Engine&lt;/font&gt;&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-1630" y="2720" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/2048px-.NET_Logo.svg.png;" parent="1" vertex="1">
+          <mxGeometry x="-1575" y="2758" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="0dZC8Tv51BrnFE1N7XIH-16" target="Dezm08wWaW3rp9LncF0e-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0dZC8Tv51BrnFE1N7XIH-16" target="0dZC8Tv51BrnFE1N7XIH-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-16" value="Inbound" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-1220" y="2630" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0dZC8Tv51BrnFE1N7XIH-20" value="Periodically query messages table for newly completed payment requests.&amp;nbsp; Convert payment requests from XML to JSON." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1060" y="2595" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1255" y="2630" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/2048px-Microsoft_.NET_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-1574" y="2758" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAbmCknAVA3ey4TZSJ3U-6" target="IAbmCknAVA3ey4TZSJ3U-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-6" value="Cross Border Database&lt;br&gt;(Daisy)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1367.2600000000002" y="3070" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_sql_server_instance;" vertex="1" parent="1">
+          <mxGeometry x="-1312.2600000000002" y="3108" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="IAbmCknAVA3ey4TZSJ3U-9" target="IAbmCknAVA3ey4TZSJ3U-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Cross Border Payment Engine&lt;/font&gt;&lt;br&gt;(Azure)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1597.2600000000002" y="3070" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/2048px-.NET_Logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-1542.2600000000002" y="3108" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/2048px-Microsoft_.NET_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-1541.2600000000002" y="3108" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAbmCknAVA3ey4TZSJ3U-12" target="IAbmCknAVA3ey4TZSJ3U-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-12" value="Payment Processor&lt;br&gt;(BizTalk)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1366.63" y="3191" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-13" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.biztalk_services;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1312.2600000000002" y="3228" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IAbmCknAVA3ey4TZSJ3U-15" target="IAbmCknAVA3ey4TZSJ3U-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-15" value="Claim Statement Export&lt;br&gt;(SQL Server Agent)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1160.0000000000002" y="3070" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-16" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_sql_server_instance;" vertex="1" parent="1">
+          <mxGeometry x="-1105.0000000000002" y="3106" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-17" value="Claim Statement Inbound&lt;br&gt;(Citrix)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-950.0000000000002" y="3070" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-18" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="1">
+          <mxGeometry x="-896.02" y="3109" width="32.04" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="1">
+          <mxGeometry x="-1004" y="3060" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-23" value="Scotland" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1760" y="2950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-24" value="Wales" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1760" y="2990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-25" value="Northern Ireland" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1760" y="3030" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-28" value="Claim data email&lt;br&gt;(Excel)" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/famous-brand-apps/100/_-04-128.png" vertex="1" parent="1">
+          <mxGeometry x="-1597.26" y="2954" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IAbmCknAVA3ey4TZSJ3U-30" target="IAbmCknAVA3ey4TZSJ3U-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-30" value="Data Warehouse&lt;br&gt;(Crown Hosting)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-2010.0000000000002" y="3170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-33" value="England claim&lt;br&gt;data" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.file" vertex="1" parent="1">
+          <mxGeometry x="-1836" y="3169" width="31.96" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1496340879/zcskwhdvuwesgl8gkwh0.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-1953.25" y="3210" width="26.5" height="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAbmCknAVA3ey4TZSJ3U-35" target="IAbmCknAVA3ey4TZSJ3U-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-35" value="Managed Gateway&lt;br&gt;(Daisy)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1770.0000000000002" y="3170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAbmCknAVA3ey4TZSJ3U-36" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.network_file_share_service;fontSize=12;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1715" y="3208.79" width="30" height="28.91" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
