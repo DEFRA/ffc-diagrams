@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T09:36:21.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="U9ZTbUnEdX-atBHMopHR" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T10:29:02.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="t525k959Nm7zPiQrWPQA" version="21.1.4" type="github">
   <diagram name="Page-1" id="wW1m3Rc3jWvj9a-EmoBQ">
     <mxGraphModel dx="2074" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="_v3G_Rp7L3uwOA6iTtzw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-2" target="_v3G_Rp7L3uwOA6iTtzw-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-2" value="Calculate how many payment requests are waiting for post payment adjustment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-2" value="Calculate how many payment requests are waiting for delta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_v3G_Rp7L3uwOA6iTtzw-4" value="- From valid payment&lt;br&gt;- Invoice is valid&lt;br&gt;- is outdated is false&lt;br&gt;- enrichment redundant flag is false" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -42,8 +42,77 @@
         <mxCell id="_v3G_Rp7L3uwOA6iTtzw-10" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="330" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-12" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-12" target="_v3G_Rp7L3uwOA6iTtzw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-12" value="Get all payment requests waiting for delta" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-15" target="_v3G_Rp7L3uwOA6iTtzw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-15" value="Calculate default agreement number as first agreement number" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-17" target="_v3G_Rp7L3uwOA6iTtzw-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-17" value="Get Previous payment requests for same agreement" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-19" value="- Match A0 as A for contract number&lt;br&gt;- Match FRN&lt;br&gt;- enrichment redundant flag is false&lt;br&gt;- have been processed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="795" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-23" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-20" target="_v3G_Rp7L3uwOA6iTtzw-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-25" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-20" target="_v3G_Rp7L3uwOA6iTtzw-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-20" value="Are there previous payment requests" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-22" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-24" target="_v3G_Rp7L3uwOA6iTtzw-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-24" value="Get completed state of previous payment requests" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-26" target="_v3G_Rp7L3uwOA6iTtzw-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-26" value="Invert invoice line values of previous payment requests" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-28" value="Match CS as PFCS as invoice prefix" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1655" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-29" target="_v3G_Rp7L3uwOA6iTtzw-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-29" value="Replace any missing agreement numbers with default agreement number" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-31" target="_v3G_Rp7L3uwOA6iTtzw-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-31" value="Replace any missing convergence values with Non-convergence" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-33" target="_v3G_Rp7L3uwOA6iTtzw-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-33" value="Get invoice number of payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-37" value="For example, +100 becomes -100 and -100 becomes +100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1245" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-38" value="Sum non net invoice lines from current payment request and inverted values of previous payment requests" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
