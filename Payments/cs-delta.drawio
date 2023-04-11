@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T10:29:02.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="t525k959Nm7zPiQrWPQA" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T10:58:51.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="qfiJaKSi2E2TL1cA9r6a" version="21.1.4" type="github">
   <diagram name="Page-1" id="wW1m3Rc3jWvj9a-EmoBQ">
     <mxGraphModel dx="2074" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -108,11 +108,143 @@
         <mxCell id="_v3G_Rp7L3uwOA6iTtzw-33" value="Get invoice number of payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="1640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-37" value="For example, +100 becomes -100 and -100 becomes +100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1245" width="370" height="30" as="geometry" />
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-37" value="For example, Current gross line is 1000, previous gross was 500, inverted to -500, so sum of all lines would be 1000 + -500 = +500" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1795" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-38" value="Sum non net invoice lines from current payment request and inverted values of previous payment requests" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-38" target="_v3G_Rp7L3uwOA6iTtzw-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-38" value="Calculate delta value by sum of non net invoice lines from current payment request and inverted values of previous payment requests" style="whiteSpace=wrap;html=1;rounded=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="340" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-40" value="For example, +100 becomes -100 and -100 becomes +100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1255" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-41" target="_v3G_Rp7L3uwOA6iTtzw-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-41" value="Calculate total number of previous payment requests routed to AR ledger" style="whiteSpace=wrap;html=1;rounded=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-49" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-46" target="_v3G_Rp7L3uwOA6iTtzw-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-51" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-46" target="_v3G_Rp7L3uwOA6iTtzw-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-46" value="Is delta value &amp;lt;= 0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-48" target="_v3G_Rp7L3uwOA6iTtzw-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="2390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-48" value="Set ledger to AR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-52" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-50" target="_v3G_Rp7L3uwOA6iTtzw-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-54" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-50" target="_v3G_Rp7L3uwOA6iTtzw-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-50" value="Have any previous payment requests been routed to AR?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-53" target="_v3G_Rp7L3uwOA6iTtzw-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="2310" />
+              <mxPoint x="400" y="2310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-53" value="Set ledger to AP" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-55" target="_v3G_Rp7L3uwOA6iTtzw-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-55" value="Set original invoice number of current payment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-58" value="(Replace PFCS with S) + Contract number + V + Payment request number padded to three characters with leading 0&#39;s" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2375" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-59" target="_v3G_Rp7L3uwOA6iTtzw-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-59" value="Calculate funding rate of current payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-61" value="- Get rate of first invoice line that is not state aid, convergence or measure 11 and value is not 0&lt;br&gt;- Lookup rate from AP account code of invoice line" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2515" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-62" target="_v3G_Rp7L3uwOA6iTtzw-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-62" value="Calculate convergence funding rate of current payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-64" value="- Get rate of first invoice line that is convergence and is not state aid or measure 11 and value is not 0&lt;br&gt;- Lookup rate from AP account code of invoice line" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2655" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-68" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-65" target="_v3G_Rp7L3uwOA6iTtzw-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-70" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-65" target="_v3G_Rp7L3uwOA6iTtzw-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-65" value="Is there a funding rate" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-67" target="_v3G_Rp7L3uwOA6iTtzw-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="2970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-67" value="Set funding rate to -1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-72" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-69" target="_v3G_Rp7L3uwOA6iTtzw-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-69" value="Is there a convergence funding rate" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2930" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-71" target="_v3G_Rp7L3uwOA6iTtzw-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="3040" />
+              <mxPoint x="400" y="3040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-71" value="Set convergence funding rate to -1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-74" target="_v3G_Rp7L3uwOA6iTtzw-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-74" value="Calculate individual line values independent of funding rates" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-76" value="- Group by marketing year, convergence, delivery body, description, scheme code, agreement number&lt;br&gt;- Sum value of each group&lt;br&gt;- Ignore measure 11 and state aid" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="3120" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-77" value="Calculate individual line values" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-78" value="- Group by marketing year, convergence, delivery body, description, scheme code, agreement number, account code, fund code&lt;br&gt;- Sum value of each group&lt;br&gt;- Sum original value of each group" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="3260" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3G_Rp7L3uwOA6iTtzw-80" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="3270" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
