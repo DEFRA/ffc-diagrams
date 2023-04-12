@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T14:34:12.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="UfN06xiP33I5wOJoHWvq" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T14:38:22.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="-4miIytiakmYPU7iunJ5" version="21.1.5" type="github">
   <diagram name="Page-1" id="wW1m3Rc3jWvj9a-EmoBQ">
     <mxGraphModel dx="2924" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -762,7 +762,7 @@
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-75" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-71" target="V7EHXxpZk7PnkW0qXMqR-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-71" value="Does first payment request have funding rate" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-71" value="Does first payment request have funding rate" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="7780" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-72" target="V7EHXxpZk7PnkW0qXMqR-74">
@@ -772,7 +772,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-72" value="Get funding rate of earliest payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-72" value="Get funding rate of earliest payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="7790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-77" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-74" target="V7EHXxpZk7PnkW0qXMqR-76">
@@ -781,7 +781,7 @@
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-80" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-74" target="V7EHXxpZk7PnkW0qXMqR-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-74" value="Does first payment request have convergence funding rate" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-74" value="Does first payment request have convergence funding rate" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="7940" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-76" target="V7EHXxpZk7PnkW0qXMqR-79">
@@ -791,13 +791,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-76" value="Get convergence funding rate of earliest payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-76" value="Get convergence funding rate of earliest payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="7950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-79" target="V7EHXxpZk7PnkW0qXMqR-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-79" value="Create list of appotionments" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-79" value="Create list of appotionments" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="8110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-82" value="- List of every previous payment request alongside earliest funding rate, earliest convergence funding rate and first payment request invoice number" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -823,7 +823,7 @@
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-94" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-89" target="V7EHXxpZk7PnkW0qXMqR-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-89" value="Is total apportionment value 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-89" value="Is total apportionment value 0?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="8240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-91" target="V7EHXxpZk7PnkW0qXMqR-96">
@@ -834,7 +834,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-91" value="Set every apportionment group percentage to 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-91" value="Set every apportionment group percentage to 0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="8250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-93" target="V7EHXxpZk7PnkW0qXMqR-96">
@@ -845,13 +845,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-93" value="Calculate apportionment percentage of each group" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-93" value="Calculate apportionment percentage of each group" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="8250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-95" value="- Total value of each group divided by the apportionment value, then multiplied by 100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="8265" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-96" value="Replace all invoice lines with delta 2 invoice lines" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-96" value="Replace all invoice lines with delta 2 invoice lines" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="8410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
