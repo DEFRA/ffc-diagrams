@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T14:38:22.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="-4miIytiakmYPU7iunJ5" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T14:39:27.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="Vi_fJO6_O94eM1FhOMYI" version="21.1.5" type="github">
   <diagram name="Page-1" id="wW1m3Rc3jWvj9a-EmoBQ">
     <mxGraphModel dx="2924" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -551,11 +551,20 @@
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-1" target="V7EHXxpZk7PnkW0qXMqR-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-1" target="V7EHXxpZk7PnkW0qXMqR-5">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-1" target="V7EHXxpZk7PnkW0qXMqR-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-1" value="Is delta topup?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="5090" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="8680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="5130" />
+              <mxPoint x="850" y="8440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-3" value="Set apportionment to not needed" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="5100" width="120" height="60" as="geometry" />
@@ -851,8 +860,14 @@
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-95" value="- Total value of each group divided by the apportionment value, then multiplied by 100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="8265" width="370" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-96" target="V7EHXxpZk7PnkW0qXMqR-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="V7EHXxpZk7PnkW0qXMqR-96" value="Replace all invoice lines with delta 2 invoice lines" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="8410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-100" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="8550" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
