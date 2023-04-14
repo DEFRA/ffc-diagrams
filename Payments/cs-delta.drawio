@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T09:41:23.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="-D1OAat9HiSGoiAJUwHd" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T09:53:11.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="RvX_jJTU4cOVJtxw0PYb" version="21.1.7" type="github">
   <diagram name="Page-1" id="wW1m3Rc3jWvj9a-EmoBQ">
     <mxGraphModel dx="2924" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -914,10 +914,10 @@
         <mxCell id="WQmQfmKmlGIIojRBbroF-14" value="Attach whether request is a correction to a previous AR payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="8720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WQmQfmKmlGIIojRBbroF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-16" target="WQmQfmKmlGIIojRBbroF-18">
+        <mxCell id="WQmQfmKmlGIIojRBbroF-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-16" target="WQmQfmKmlGIIojRBbroF-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WQmQfmKmlGIIojRBbroF-16" value="Split payment request across all apportionment groups" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WQmQfmKmlGIIojRBbroF-16" value="Get funding rate for current payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="9020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-18" target="WQmQfmKmlGIIojRBbroF-20">
@@ -927,40 +927,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-18" value="Do any apportionments groups need to be split across ledgers" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="9150" width="80" height="80" as="geometry" />
+          <mxGeometry x="-80" y="9740" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-20" target="WQmQfmKmlGIIojRBbroF-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-20" value="Allocate values to route to each ledger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="9160" width="120" height="60" as="geometry" />
+          <mxGeometry x="-260" y="9750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-22" target="WQmQfmKmlGIIojRBbroF-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-340" y="9330" />
-              <mxPoint x="-340" y="9130" />
-              <mxPoint x="-40" y="9130" />
+              <mxPoint x="-340" y="9920" />
+              <mxPoint x="-340" y="9720" />
+              <mxPoint x="-40" y="9720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-22" value="Split payment request across each ledger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="9320" width="120" height="60" as="geometry" />
+          <mxGeometry x="-260" y="9910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-25" target="WQmQfmKmlGIIojRBbroF-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-25" value="Add original settlement date of first payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="9320" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="9910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-28" target="WQmQfmKmlGIIojRBbroF-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-28" value="Add correction reference if correction to previous AR" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="9460" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="10050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-30" value="Route payment request for ledger assignment quality check" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="9600" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="10190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-32" value="- Admin or irregular" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-460" y="8585" width="140" height="30" as="geometry" />
@@ -998,6 +998,24 @@
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-39" value="Do amended percentages add up to 100?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-300" y="9010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-44" target="WQmQfmKmlGIIojRBbroF-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-44" value="Get convergence funding rate for current payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="9160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-46" value="- lookup AP account code where not protected measure and not convergence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="9035" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-47" value="- lookup AP account code where not protected measure and not convergence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="9175" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-48" value="Calculate new invoice number for each apportionment" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="9300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-50" value="- insert next letter of alphabet before contract id and drop a 0 after V" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="9310" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
