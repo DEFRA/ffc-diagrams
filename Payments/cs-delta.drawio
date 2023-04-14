@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T14:39:27.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="Vi_fJO6_O94eM1FhOMYI" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T09:41:23.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="-D1OAat9HiSGoiAJUwHd" version="21.1.7" type="github">
   <diagram name="Page-1" id="wW1m3Rc3jWvj9a-EmoBQ">
     <mxGraphModel dx="2924" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -529,7 +529,7 @@
         <mxCell id="_v3G_Rp7L3uwOA6iTtzw-165" value="Is there a difference between overall delta and sum of lines" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="4790" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-167" target="V7EHXxpZk7PnkW0qXMqR-1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_v3G_Rp7L3uwOA6iTtzw-167" target="V7EHXxpZk7PnkW0qXMqR-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_v3G_Rp7L3uwOA6iTtzw-167" value="Calculate hidden recoveries and top ups" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -548,126 +548,126 @@
         <mxCell id="_v3G_Rp7L3uwOA6iTtzw-172" value="- Group lines by convergence and filter by measure&lt;br&gt;- Measure is a way of grouping scheme codes by the first two or three characters.&amp;nbsp; For example scheme codes starting 58 = Measure 11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-200" y="5115" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-1" target="V7EHXxpZk7PnkW0qXMqR-3">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-1" target="V7EHXxpZk7PnkW0qXMqR-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-1" target="V7EHXxpZk7PnkW0qXMqR-5">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-1" target="V7EHXxpZk7PnkW0qXMqR-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-1" value="Is delta topup?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-1" value="Is delta topup?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="5090" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-3">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-3" edge="1" target="WQmQfmKmlGIIojRBbroF-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="8680" as="targetPoint" />
             <Array as="points">
               <mxPoint x="850" y="5130" />
-              <mxPoint x="850" y="8440" />
+              <mxPoint x="850" y="8590" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-3" value="Set apportionment to not needed" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-3" value="Set apportionment to not needed" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="5100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-5" target="V7EHXxpZk7PnkW0qXMqR-8">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-5" target="V7EHXxpZk7PnkW0qXMqR-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-5" value="Calculate Measure 10 line totals" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-5" value="Calculate Measure 10 line totals" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="5100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-8" target="V7EHXxpZk7PnkW0qXMqR-10">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-8" target="V7EHXxpZk7PnkW0qXMqR-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-8" value="Calculate Measure 11 line totals" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-8" value="Calculate Measure 11 line totals" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="5240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-10" target="V7EHXxpZk7PnkW0qXMqR-12">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-10" target="V7EHXxpZk7PnkW0qXMqR-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-10" value="Calculate Measure 4 line totals" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-10" value="Calculate Measure 4 line totals" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="5380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-12" target="V7EHXxpZk7PnkW0qXMqR-14">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-12" target="V7EHXxpZk7PnkW0qXMqR-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-12" value="Calculate Measure 8 line totals" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-12" value="Calculate Measure 8 line totals" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="5520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-14" target="V7EHXxpZk7PnkW0qXMqR-19">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-14" target="V7EHXxpZk7PnkW0qXMqR-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-14" value="Calculate Measure 15 line totals" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-14" value="Calculate Measure 15 line totals" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="5660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-16" value="Sum all line totals from each measure where non convergence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-16" value="Sum all line totals from each measure where non convergence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-190" y="5815" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="130" y="5685" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-18" value="- Line must match current funding rate or convergence funding rate, must not be state aid or measure 11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-18" value="- Line must match current funding rate or convergence funding rate, must not be state aid or measure 11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="4825" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-19" target="V7EHXxpZk7PnkW0qXMqR-22">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-19" target="V7EHXxpZk7PnkW0qXMqR-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-19" value="Calculate funded non-convergence delta value" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-19" value="Calculate funded non-convergence delta value" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="5800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-21" value="Need to check if this should be 15 or 8, potential bug in PF" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-21" value="Need to check if this should be 15 or 8, potential bug in PF" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-180" y="5685" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-22" target="V7EHXxpZk7PnkW0qXMqR-25">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-22" target="V7EHXxpZk7PnkW0qXMqR-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-22" value="Calculate funded&amp;nbsp; convergence delta value" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-22" value="Calculate funded&amp;nbsp; convergence delta value" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="5940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-24" value="Sum all line totals from each measure where convergence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-24" value="Sum all line totals from each measure where convergence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-190" y="5955" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-25" target="V7EHXxpZk7PnkW0qXMqR-27">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-25" target="V7EHXxpZk7PnkW0qXMqR-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-25" value="Calculate measure 10 delta value" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-25" value="Calculate measure 10 delta value" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="6080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-27" target="V7EHXxpZk7PnkW0qXMqR-29">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-27" target="V7EHXxpZk7PnkW0qXMqR-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-27" value="Calculate measure 11 delta value" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-27" value="Calculate measure 11 delta value" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="6220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-29" target="V7EHXxpZk7PnkW0qXMqR-31">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-29" target="V7EHXxpZk7PnkW0qXMqR-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-29" value="Calculate measure 4 delta value" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-29" value="Calculate measure 4 delta value" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="6360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-31" target="V7EHXxpZk7PnkW0qXMqR-33">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-31" target="V7EHXxpZk7PnkW0qXMqR-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-31" value="Calculate measure 8 delta value" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-31" value="Calculate measure 8 delta value" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="6500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-33" target="V7EHXxpZk7PnkW0qXMqR-35">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-33" target="V7EHXxpZk7PnkW0qXMqR-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-33" value="Calculate measure 15 delta value" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-33" value="Calculate measure 15 delta value" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="6640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-38" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-35" target="V7EHXxpZk7PnkW0qXMqR-37">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-38" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-35" target="V7EHXxpZk7PnkW0qXMqR-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-40" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-35">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-40" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="6900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-35" value="Is funded non convergence delta &amp;lt; 0 and funded convergence &amp;gt;=0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-35" value="Is funded non convergence delta &amp;lt; 0 and funded convergence &amp;gt;=0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="6770" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-37" target="V7EHXxpZk7PnkW0qXMqR-51">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-37" target="V7EHXxpZk7PnkW0qXMqR-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-40" y="6810" />
@@ -675,78 +675,78 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-37" value="Set allowed convergence value to non convergence only" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-37" value="Set allowed convergence value to non convergence only" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="6780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-48" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-41" target="V7EHXxpZk7PnkW0qXMqR-47">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-48" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-41" target="V7EHXxpZk7PnkW0qXMqR-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-50" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-41" target="V7EHXxpZk7PnkW0qXMqR-49">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-50" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-41" target="V7EHXxpZk7PnkW0qXMqR-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-41" target="V7EHXxpZk7PnkW0qXMqR-51">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-41" target="V7EHXxpZk7PnkW0qXMqR-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-41" value="Is funded convergence delta &amp;lt; 0 and funded non convergence &amp;gt;=0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-41" value="Is funded convergence delta &amp;lt; 0 and funded non convergence &amp;gt;=0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="6900" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-47" target="V7EHXxpZk7PnkW0qXMqR-51">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-47" target="V7EHXxpZk7PnkW0qXMqR-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="7100" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-47" value="Set allowed convergence value to convergence only" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-47" value="Set allowed convergence value to convergence only" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="6910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-49" target="V7EHXxpZk7PnkW0qXMqR-51">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-49" target="V7EHXxpZk7PnkW0qXMqR-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="7100" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-49" value="Setl allowed convergence value to both convergence and non convergence" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-49" value="Setl allowed convergence value to both convergence and non convergence" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="6910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-51" target="V7EHXxpZk7PnkW0qXMqR-56">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-51" target="V7EHXxpZk7PnkW0qXMqR-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-51" value="Calculate list of allowed scheme codes" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-51" value="Calculate list of allowed scheme codes" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="7070" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-56" target="V7EHXxpZk7PnkW0qXMqR-60">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-56" target="V7EHXxpZk7PnkW0qXMqR-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-56" value="Calculate list of&amp;nbsp; not allowed scheme codes" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-56" value="Calculate list of&amp;nbsp; not allowed scheme codes" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="7210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-58" value="- Any scheme code where the corresponding measure has a delta value less than 0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-58" value="- Any scheme code where the corresponding measure has a delta value less than 0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="7110" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-59" value="- Any scheme code where the corresponding measure has a delta value greater than or equal to 0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-59" value="- Any scheme code where the corresponding measure has a delta value greater than or equal to 0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="7225" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-60" target="V7EHXxpZk7PnkW0qXMqR-63">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-60" target="V7EHXxpZk7PnkW0qXMqR-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-60" value="Calculate total apportionment value" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-60" value="Calculate total apportionment value" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="7350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-62" value="- Sum of all invoice lines from current payment request and inverted previous payment requests where lines are not state aid, equal to allowed convergence, present in allowed scheme codes and not in not allowed scheme codes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-62" value="- Sum of all invoice lines from current payment request and inverted previous payment requests where lines are not state aid, equal to allowed convergence, present in allowed scheme codes and not in not allowed scheme codes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="7365" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-66" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-63" target="V7EHXxpZk7PnkW0qXMqR-65">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-66" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-63" target="V7EHXxpZk7PnkW0qXMqR-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-84" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-63" target="V7EHXxpZk7PnkW0qXMqR-83">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-84" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-63" target="V7EHXxpZk7PnkW0qXMqR-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-63" value="Is total apportionment value 0?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-63" value="Is total apportionment value 0?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="7480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-65" target="V7EHXxpZk7PnkW0qXMqR-67">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-65" target="V7EHXxpZk7PnkW0qXMqR-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="7600" />
@@ -754,65 +754,65 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-65" value="Group all invoice lines from previous payment requests by payment request number" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-65" value="Group all invoice lines from previous payment requests by payment request number" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="7490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-67">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="7780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-67" value="Get original invoice number from first payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-67" value="Get original invoice number from first payment request" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="7640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-73" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-71" target="V7EHXxpZk7PnkW0qXMqR-72">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-73" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-71" target="V7EHXxpZk7PnkW0qXMqR-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-75" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-71" target="V7EHXxpZk7PnkW0qXMqR-74">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-75" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-71" target="V7EHXxpZk7PnkW0qXMqR-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-71" value="Does first payment request have funding rate" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-71" value="Does first payment request have funding rate" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="7780" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-72" target="V7EHXxpZk7PnkW0qXMqR-74">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-72" target="V7EHXxpZk7PnkW0qXMqR-74" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="7980" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-72" value="Get funding rate of earliest payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-72" value="Get funding rate of earliest payment request" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="7790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-77" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-74" target="V7EHXxpZk7PnkW0qXMqR-76">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-77" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-74" target="V7EHXxpZk7PnkW0qXMqR-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-80" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-74" target="V7EHXxpZk7PnkW0qXMqR-79">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-80" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-74" target="V7EHXxpZk7PnkW0qXMqR-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-74" value="Does first payment request have convergence funding rate" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-74" value="Does first payment request have convergence funding rate" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="7940" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-76" target="V7EHXxpZk7PnkW0qXMqR-79">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-76" target="V7EHXxpZk7PnkW0qXMqR-79" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="420" y="8140" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-76" value="Get convergence funding rate of earliest payment request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-76" value="Get convergence funding rate of earliest payment request" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="7950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-79" target="V7EHXxpZk7PnkW0qXMqR-89">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-79" target="V7EHXxpZk7PnkW0qXMqR-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-79" value="Create list of appotionments" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-79" value="Create list of appotionments" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="8110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-82" value="- List of every previous payment request alongside earliest funding rate, earliest convergence funding rate and first payment request invoice number" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-82" value="- List of every previous payment request alongside earliest funding rate, earliest convergence funding rate and first payment request invoice number" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-190" y="8125" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-83" target="V7EHXxpZk7PnkW0qXMqR-67">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-83" target="V7EHXxpZk7PnkW0qXMqR-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="7600" />
@@ -820,22 +820,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-83" value="Group apportionment invoice lines" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-83" value="Group apportionment invoice lines" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="7490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-85" value="- Sum of all invoice lines from current payment request and inverted previous payment requests where lines are not state aid, equal to allowed convergence, present in allowed scheme codes and not in not allowed scheme codes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-85" value="- Sum of all invoice lines from current payment request and inverted previous payment requests where lines are not state aid, equal to allowed convergence, present in allowed scheme codes and not in not allowed scheme codes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="7505" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-92" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-89" target="V7EHXxpZk7PnkW0qXMqR-91">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-92" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-89" target="V7EHXxpZk7PnkW0qXMqR-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-94" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-89" target="V7EHXxpZk7PnkW0qXMqR-93">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-94" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-89" target="V7EHXxpZk7PnkW0qXMqR-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-89" value="Is total apportionment value 0?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-89" value="Is total apportionment value 0?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="8240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-91" target="V7EHXxpZk7PnkW0qXMqR-96">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-91" target="V7EHXxpZk7PnkW0qXMqR-96" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="8350" />
@@ -843,10 +843,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-91" value="Set every apportionment group percentage to 0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-91" value="Set every apportionment group percentage to 0" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="8250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-93" target="V7EHXxpZk7PnkW0qXMqR-96">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-93" target="V7EHXxpZk7PnkW0qXMqR-96" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="8350" />
@@ -854,20 +854,150 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-93" value="Calculate apportionment percentage of each group" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-93" value="Calculate apportionment percentage of each group" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="8250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-95" value="- Total value of each group divided by the apportionment value, then multiplied by 100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="8265" width="370" height="30" as="geometry" />
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-95" value="- match by contract number, net value and frn&lt;br&gt;- if contract number is less than seven characters, then pad with leading zero after letter C" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-145" y="8500" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7EHXxpZk7PnkW0qXMqR-96" target="V7EHXxpZk7PnkW0qXMqR-100">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V7EHXxpZk7PnkW0qXMqR-96" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="8550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-96" value="Replace all invoice lines with delta 2 invoice lines" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="V7EHXxpZk7PnkW0qXMqR-96" value="Replace all invoice lines with delta 2 invoice lines" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="8410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V7EHXxpZk7PnkW0qXMqR-100" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="8550" width="120" height="60" as="geometry" />
+        <mxCell id="WQmQfmKmlGIIojRBbroF-3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-1" target="WQmQfmKmlGIIojRBbroF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="8590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-1" value="Is ledger AR or has there ever been an AR ledger for this payment?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="8550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="8720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="8720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-6" target="WQmQfmKmlGIIojRBbroF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-6" value="Does the payment request have debt reason and recovery date?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="8550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-9" target="WQmQfmKmlGIIojRBbroF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-9" value="Attach debt reason to payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="8560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-11" value="- Total value of each group divided by the apportionment value, then multiplied by 100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="8275" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-12" target="WQmQfmKmlGIIojRBbroF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-12" value="Attach date debt discovered" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="8720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-14" target="WQmQfmKmlGIIojRBbroF-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-14" value="Attach whether request is a correction to a previous AR payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="8720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-16" target="WQmQfmKmlGIIojRBbroF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-16" value="Split payment request across all apportionment groups" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="9020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-18" target="WQmQfmKmlGIIojRBbroF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-26" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-18" target="WQmQfmKmlGIIojRBbroF-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-18" value="Do any apportionments groups need to be split across ledgers" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="9150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-20" target="WQmQfmKmlGIIojRBbroF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-20" value="Allocate values to route to each ledger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="9160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-22" target="WQmQfmKmlGIIojRBbroF-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="9330" />
+              <mxPoint x="-340" y="9130" />
+              <mxPoint x="-40" y="9130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-22" value="Split payment request across each ledger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="9320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-25" target="WQmQfmKmlGIIojRBbroF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-25" value="Add original settlement date of first payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="9320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-28" target="WQmQfmKmlGIIojRBbroF-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-28" value="Add correction reference if correction to previous AR" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="9460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-30" value="Route payment request for ledger assignment quality check" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="9600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-32" value="- Admin or irregular" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="8585" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-36" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-34" target="WQmQfmKmlGIIojRBbroF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-38" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-34" target="WQmQfmKmlGIIojRBbroF-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-34" value="Is the apportionment split percentages correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="8850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-37" target="WQmQfmKmlGIIojRBbroF-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-37" value="Amend percentages" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="8860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-39" target="WQmQfmKmlGIIojRBbroF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-42" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WQmQfmKmlGIIojRBbroF-41">
+          <mxGeometry x="-0.25" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-43" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-39" target="WQmQfmKmlGIIojRBbroF-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-370" y="9050" />
+              <mxPoint x="-370" y="8890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-39" value="Do amended percentages add up to 100?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="9010" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
