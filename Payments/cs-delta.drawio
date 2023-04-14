@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T09:53:11.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="RvX_jJTU4cOVJtxw0PYb" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T13:08:47.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="oxLnIcYQouLpR2oMBFaD" version="21.1.7" type="github">
   <diagram name="Page-1" id="wW1m3Rc3jWvj9a-EmoBQ">
-    <mxGraphModel dx="2924" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3774" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -927,40 +927,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-18" value="Do any apportionments groups need to be split across ledgers" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="9740" width="80" height="80" as="geometry" />
+          <mxGeometry x="-80" y="10540" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-20" target="WQmQfmKmlGIIojRBbroF-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-20" value="Allocate values to route to each ledger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="9750" width="120" height="60" as="geometry" />
+          <mxGeometry x="-260" y="10550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-22" target="WQmQfmKmlGIIojRBbroF-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-340" y="9920" />
-              <mxPoint x="-340" y="9720" />
-              <mxPoint x="-40" y="9720" />
+              <mxPoint x="-340" y="10720" />
+              <mxPoint x="-340" y="10520" />
+              <mxPoint x="-40" y="10520" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-22" value="Split payment request across each ledger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="9910" width="120" height="60" as="geometry" />
+          <mxGeometry x="-260" y="10710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-25" target="WQmQfmKmlGIIojRBbroF-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-25" value="Add original settlement date of first payment request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="9910" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="10710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-28" target="WQmQfmKmlGIIojRBbroF-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-28" value="Add correction reference if correction to previous AR" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="10050" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="10850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-30" value="Route payment request for ledger assignment quality check" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="10190" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="10990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-32" value="- Admin or irregular" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-460" y="8585" width="140" height="30" as="geometry" />
@@ -1011,11 +1011,144 @@
         <mxCell id="WQmQfmKmlGIIojRBbroF-47" value="- lookup AP account code where not protected measure and not convergence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="9175" width="300" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-48" target="WQmQfmKmlGIIojRBbroF-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WQmQfmKmlGIIojRBbroF-48" value="Calculate new invoice number for each apportionment" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="9300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WQmQfmKmlGIIojRBbroF-50" value="- insert next letter of alphabet before contract id and drop a 0 after V" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="9310" width="300" height="30" as="geometry" />
+        <mxCell id="WQmQfmKmlGIIojRBbroF-50" value="- are there different funding rates or different funding convergence rates across any apportionment groups" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="9455" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-54" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="9470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-56" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-51" target="WQmQfmKmlGIIojRBbroF-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="9590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="9930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-51" value="Is there a funding change or convergence funding change?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="9430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-57" value="- insert next letter of alphabet before contract id and drop a 0 after V" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="9320" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-60" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-58" target="WQmQfmKmlGIIojRBbroF-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-62" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-58" target="WQmQfmKmlGIIojRBbroF-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="9600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-180" y="9930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-58" value="Is the line a projected measure or state aid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="9430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-59" target="WQmQfmKmlGIIojRBbroF-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-59" value="Get account code for line" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="9440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-63" value="- get AP account code where matches line description, revenue and funding rate" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="9450" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-64" target="WQmQfmKmlGIIojRBbroF-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-64" value="Create copy of line with value multiplied by apportionment percent and funding rate" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="9600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-69" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-66" target="WQmQfmKmlGIIojRBbroF-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-73" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-66" target="WQmQfmKmlGIIojRBbroF-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="9930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-66" value="Is funding rate or convergence funding rate of line less than 100%?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="9730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-68" value="Create copy of line with value multiplied by apportionment percent and 1 - funding rate" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="9740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-70" value="For example, if apportionment was 50%, funding rate is 75%, value is 100 would be 100 x 0.50 x (1 - 0.75 = 0.25) =&amp;nbsp; 12.50&lt;br&gt;&lt;br&gt;Should be exchequer line" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="9755" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-71" value="For example, if apportionment was 50%, funding rate is 75%, value is 100 would be 100 x 0.50 x 0.75 = 37.50&lt;br&gt;&lt;br&gt;Should be non-exchequer line" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="9615" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="10040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-72" value="Create copy of line with value multiplied by apportionment percent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="9900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-78" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-76" target="WQmQfmKmlGIIojRBbroF-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-80" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-76" target="WQmQfmKmlGIIojRBbroF-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-76" value="Is the new sum of all lines the same as the original?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="10040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="10350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-77" value="Split invoice header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="10210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-79" target="WQmQfmKmlGIIojRBbroF-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="10240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-79" value="Apply any variance to first line" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="10050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-83" value="Copy all header values and set value to be equal to sum of all non net lines" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10225" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-88" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="10390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-93" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-86" target="WQmQfmKmlGIIojRBbroF-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="10520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-86" value="Do the sum of all invoice lines across all apportionments equal the original total?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="10350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQmQfmKmlGIIojRBbroF-89" target="WQmQfmKmlGIIojRBbroF-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-89" value="Unrecoverable failure of adjustment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="10360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQmQfmKmlGIIojRBbroF-90" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="10350" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
