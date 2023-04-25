@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T09:01:59.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="V045dc-f2KK9zRvQNsn8" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T09:06:17.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="D2ruI55SCFKRJb04jeTo" version="21.2.1" type="github">
   <diagram name="Page-1" id="aLZ2Wnbk1KyW59XvxMQL">
     <mxGraphModel dx="2074" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,6 +48,12 @@
         </mxCell>
         <mxCell id="RIhZM-0b08vBuHOQIwmw-16" value="Set all lines to DOM01" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-18" value="Can only be DOM00 or DOM01&lt;br&gt;&lt;br&gt;DOM00 - no payments made with EU fund code&lt;br&gt;&lt;br&gt;DOM01 - earlier payments made with EU fund code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="665" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-19" value="BPS/FDMR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
