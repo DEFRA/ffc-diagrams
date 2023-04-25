@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T09:00:03.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" version="21.2.1" etag="Ysz0JLi7Sj63frs8UIjR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T09:01:59.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="V045dc-f2KK9zRvQNsn8" version="21.2.1" type="github">
   <diagram name="Page-1" id="aLZ2Wnbk1KyW59XvxMQL">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIhZM-0b08vBuHOQIwmw-1" target="RIhZM-0b08vBuHOQIwmw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIhZM-0b08vBuHOQIwmw-2" target="RIhZM-0b08vBuHOQIwmw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIhZM-0b08vBuHOQIwmw-2" target="RIhZM-0b08vBuHOQIwmw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-2" value="Is marketing year &amp;gt;= 2020" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-4" value="Set all lines to DOM10" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-11" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIhZM-0b08vBuHOQIwmw-6" target="RIhZM-0b08vBuHOQIwmw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIhZM-0b08vBuHOQIwmw-6" target="RIhZM-0b08vBuHOQIwmw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-6" value="Is first payment request?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-10" value="Set all lines to DOM00" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIhZM-0b08vBuHOQIwmw-12" target="RIhZM-0b08vBuHOQIwmw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIhZM-0b08vBuHOQIwmw-12" target="RIhZM-0b08vBuHOQIwmw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-12" value="Has a domestic fund code been used before?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-14" value="Set all lines to previously used code" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhZM-0b08vBuHOQIwmw-16" value="Set all lines to DOM01" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
