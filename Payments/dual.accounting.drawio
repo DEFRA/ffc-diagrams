@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T16:03:15.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" etag="HTczhLtQSySnExKWlL9y" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T16:09:28.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" etag="4N1SRwwb9Maxl-eRlwi5" version="21.2.4" type="github">
   <diagram name="Page-1" id="aLZ2Wnbk1KyW59XvxMQL">
     <mxGraphModel dx="2924" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="yx07upX3U9dLq38maUh5-11" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yx07upX3U9dLq38maUh5-4" target="yx07upX3U9dLq38maUh5-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yx07upX3U9dLq38maUh5-4" value="Is current fund missing or current fund DRD10 or DEX10?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yx07upX3U9dLq38maUh5-4" value="Is current fund DRD10 or DEX10?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="1240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yx07upX3U9dLq38maUh5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yx07upX3U9dLq38maUh5-8" target="yx07upX3U9dLq38maUh5-42">
@@ -157,7 +157,7 @@
           <mxGeometry x="630" y="1755" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yx07upX3U9dLq38maUh5-25" value="Capital scheme codes&lt;br&gt;5204B&lt;br&gt;5214A&lt;br&gt;5214B&lt;br&gt;5214C&lt;br&gt;5224A&lt;br&gt;5224B&lt;br&gt;5224C&lt;br&gt;5234A&lt;br&gt;5234B&lt;br&gt;5234C&lt;br&gt;5244A&lt;br&gt;5244B&lt;br&gt;5244C&lt;br&gt;5274A" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="1160" width="140" height="220" as="geometry" />
+          <mxGeometry x="360" y="1490" width="140" height="220" as="geometry" />
         </mxCell>
         <mxCell id="yx07upX3U9dLq38maUh5-29" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yx07upX3U9dLq38maUh5-26" target="yx07upX3U9dLq38maUh5-28">
           <mxGeometry relative="1" as="geometry" />
