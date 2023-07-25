@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T11:47:56.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="jjsz2JoRqyv3-uIlKXZO" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T11:50:08.269Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="HRiYIAkbSWQc7M99fDVC" version="21.6.5" type="github">
   <diagram id="JAUS7llx8-0UdaqlXuOL" name="Page-1">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,7 +147,7 @@
         <mxCell id="MnYAPauBsMX0hl_VpqK3-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" parent="1" vertex="1">
           <mxGeometry x="295" y="855" width="30" height="26.47" as="geometry" />
         </mxCell>
-        <mxCell id="MnYAPauBsMX0hl_VpqK3-7" value="payeventstore" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="MnYAPauBsMX0hl_VpqK3-7" value="Event Stores" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="440" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;aspect=fixed;" parent="1" vertex="1">
@@ -184,19 +184,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-16" value="ffc-pay-report-generator" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="440" y="955" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="978" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-17" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" parent="1" vertex="1">
-          <mxGeometry x="485" y="980" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="485" y="1003" width="30" height="26.47" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/37.Stopwatch-128.png;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="470" y="925" width="30" height="30" as="geometry" />
+          <mxGeometry x="470" y="948" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-22" value="reports" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="630" y="955" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="978" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-23" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="675" y="982" width="30" height="27" as="geometry" />
+          <mxGeometry x="675" y="1005" width="30" height="27" as="geometry" />
         </mxCell>
         <mxCell id="MnYAPauBsMX0hl_VpqK3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="MnYAPauBsMX0hl_VpqK3-26" target="MnYAPauBsMX0hl_VpqK3-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -227,6 +227,9 @@
         </mxCell>
         <mxCell id="c-reeT-J-UKMJCbPcdXI-2" value="ffc-pay-data-request-response&lt;br&gt;(session)" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" parent="1" vertex="1">
           <mxGeometry x="820" y="881.47" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bRtv2sGHY0BAXwJ2i9L--1" value="Event stores:&lt;br&gt;- payments&lt;br&gt;- batches&lt;br&gt;- holds&lt;br&gt;- warnings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="918" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
