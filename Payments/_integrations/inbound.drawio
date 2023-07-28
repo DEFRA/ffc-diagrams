@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T09:53:30.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="2k__LuvFWxxaKbl2MyME" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T12:05:59.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="VGuh3zOfIr8nlawop6hi" version="21.6.5" type="github">
   <diagram id="G7IKK1uFR9EvQG0BmMMW" name="Page-1">
-    <mxGraphModel dx="2017" dy="2317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="puzr59B2cfCX9x2_hXDQ-35" value="Payment Service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="puzr59B2cfCX9x2_hXDQ-35" value="Payment Hub" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="280" y="-1070" width="910" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="puzr59B2cfCX9x2_hXDQ-33" value="Siti Agri Payment Adapter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="puzr59B2cfCX9x2_hXDQ-33" value="&amp;nbsp;Payment Batch Adapter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="295" y="-1040" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="puzr59B2cfCX9x2_hXDQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.967;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="puzr59B2cfCX9x2_hXDQ-1" target="puzr59B2cfCX9x2_hXDQ-18" edge="1">
@@ -46,11 +46,8 @@
         <mxCell id="puzr59B2cfCX9x2_hXDQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="puzr59B2cfCX9x2_hXDQ-12" target="puzr59B2cfCX9x2_hXDQ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="puzr59B2cfCX9x2_hXDQ-12" value="Batch Validator&lt;br style=&quot;font-size: 10px;&quot;&gt;(ffc-pay-batch-validator)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="puzr59B2cfCX9x2_hXDQ-12" value="Batch Verifier&lt;br style=&quot;font-size: 10px;&quot;&gt;(ffc-pay-batch-verifier)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="315" y="-1010" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="puzr59B2cfCX9x2_hXDQ-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
-          <mxGeometry x="360" y="-978.47" width="30" height="26.47" as="geometry" />
         </mxCell>
         <mxCell id="puzr59B2cfCX9x2_hXDQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.067;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" parent="1" source="puzr59B2cfCX9x2_hXDQ-15" target="puzr59B2cfCX9x2_hXDQ-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -70,7 +67,7 @@
         <mxCell id="puzr59B2cfCX9x2_hXDQ-24" value="Enrichment subscription&lt;br style=&quot;font-size: 10px;&quot;&gt;(ffc-pay-enrichment)" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=10;image=img/lib/mscae/Service_Bus.svg;" parent="1" vertex="1">
           <mxGeometry x="760" y="-855" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d724wqdtPP8sbq1QZHIS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="puzr59B2cfCX9x2_hXDQ-27" target="d724wqdtPP8sbq1QZHIS-2">
+        <mxCell id="d724wqdtPP8sbq1QZHIS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="puzr59B2cfCX9x2_hXDQ-27" target="d724wqdtPP8sbq1QZHIS-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="puzr59B2cfCX9x2_hXDQ-27" value="Subscription&lt;br style=&quot;font-size: 10px;&quot;&gt;(Source specific)&lt;br&gt;Correlation filter on &lt;b&gt;subject&amp;nbsp;= source system&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=10;image=img/lib/mscae/Service_Bus.svg;" parent="1" vertex="1">
@@ -79,11 +76,14 @@
         <mxCell id="puzr59B2cfCX9x2_hXDQ-34" value="Payment File" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/12.File-128.png;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="170" y="-1013" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d724wqdtPP8sbq1QZHIS-1" value="Payment&lt;br&gt;Batch&lt;br&gt;Entry" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="d724wqdtPP8sbq1QZHIS-1" value="Payment&lt;br&gt;Batch&lt;br&gt;Entry" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="70" y="-1013" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="d724wqdtPP8sbq1QZHIS-2" value="Payment&lt;br&gt;Transaction&lt;br&gt;Entry" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="d724wqdtPP8sbq1QZHIS-2" value="Payment&lt;br&gt;Transaction&lt;br&gt;Entry" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="70" y="-875" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vBGTRCNKhZMxovLdGrf3-2" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;fontSize=10;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-979.8" width="30" height="28.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
