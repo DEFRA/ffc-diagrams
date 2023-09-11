@@ -1,41 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T13:17:46.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="phVqFsilUojy5O7hdRNh" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T15:10:18.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="4whVNuMzXk_dcepqQNfU" version="21.7.2" type="github">
   <diagram name="Page-1" id="n79Q4a0UlwfNvP22XIBk">
     <mxGraphModel dx="2869" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CiKUPNfviH01VdCJl_I1-1" value="Managed Gateway" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="160" width="400" height="410" as="geometry" />
+          <mxGeometry x="-80" y="150" width="400" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-2" value="Genesis Inbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-52.5" y="210" width="345" height="50" as="geometry" />
+        <mxCell id="CiKUPNfviH01VdCJl_I1-2" value="Genesis Inbound&lt;br&gt;&lt;br&gt;/opt/cap_prod_data/genesis/in/int_072/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="320" width="345" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-3" value="GLOS Inbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-52.5" y="350" width="345" height="50" as="geometry" />
+        <mxCell id="CiKUPNfviH01VdCJl_I1-3" value="GLOS Inbound&lt;br&gt;&lt;br&gt;/opt/cap_prod_data/glos/in/int_230/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="460" width="345" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-4" value="SITI Agri Inbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-52.5" y="490" width="345" height="50" as="geometry" />
+        <mxCell id="CiKUPNfviH01VdCJl_I1-4" value="SITI Agri Inbound&lt;br&gt;&lt;br&gt;/opt/cap_prod_data/DAX/out/int_539/&lt;br&gt;/opt/cap_prod_data/DAX/out/int_716/&lt;br&gt;/opt/cap_prod_data/DAX/out/int_725/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="220" width="345" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-5" value="Genesis Outbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-52.5" y="280" width="345" height="50" as="geometry" />
+        <mxCell id="CiKUPNfviH01VdCJl_I1-5" value="Genesis Outbound&lt;br&gt;&lt;br&gt;/opt/cap_prod_data/genesis/out/int_073/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="390" width="345" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-6" value="GLOS Outbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-52.5" y="420" width="345" height="50" as="geometry" />
+        <mxCell id="CiKUPNfviH01VdCJl_I1-6" value="GLOS Outbound&lt;br&gt;&lt;br&gt;/opt/cap_prod_data/glos/out/int_231/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="530" width="345" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CiKUPNfviH01VdCJl_I1-7" value="Callisto" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="640" width="400" height="330" as="geometry" />
+          <mxGeometry x="-80" y="620" width="400" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-8" value="IMPS Inbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CiKUPNfviH01VdCJl_I1-8" value="IMPS Inbound&lt;br&gt;&lt;br&gt;/app/DAX_interface/CFI/outbound/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-52.5" y="690" width="345" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-9" value="DPS Inbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CiKUPNfviH01VdCJl_I1-9" value="DPS Inbound&lt;br&gt;&lt;br&gt;/app/DAX_interface/DPS/outbound/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-52.5" y="830" width="345" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-11" value="IMPS Outbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CiKUPNfviH01VdCJl_I1-11" value="IMPS Outbound&lt;br&gt;&lt;br&gt;/app/DAX_interface/CFI/inbound/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-52.5" y="760" width="345" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CiKUPNfviH01VdCJl_I1-12" value="DPS Outbound&lt;br&gt;&lt;br&gt;/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CiKUPNfviH01VdCJl_I1-12" value="DPS Outbound&lt;br&gt;&lt;br&gt;/app/DAX_interface/DPS/inbound" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-52.5" y="900" width="345" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CiKUPNfviH01VdCJl_I1-14" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.network_file_share_service;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="105" y="180" width="30" height="28.91" as="geometry" />
+        </mxCell>
+        <mxCell id="CiKUPNfviH01VdCJl_I1-15" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.network_file_share_service;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="105" y="650" width="30" height="28.91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
