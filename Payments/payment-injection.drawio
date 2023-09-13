@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T15:14:36.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="-w_dKfaNPAYQVp7HET0c" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T15:31:04.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="42cu2EuF6SOR7itB6Xgt" version="21.7.4" type="github">
   <diagram name="Page-1" id="dqAsUVCttUs650JnpwHh">
     <mxGraphModel dx="4779" dy="-312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -424,6 +424,59 @@
         </mxCell>
         <mxCell id="SGE-m0KxP_jJ5czWhdAc-154" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-2482.75" y="2653.87" width="60" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SGE-m0KxP_jJ5czWhdAc-155" target="SGE-m0KxP_jJ5czWhdAc-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-155" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="1">
+          <mxGeometry x="-2941.4999999999995" y="3007" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.026;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SGE-m0KxP_jJ5czWhdAc-156" target="SGE-m0KxP_jJ5czWhdAc-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-156" value="Blob storage container&lt;br&gt;(Manual)" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" vertex="1" parent="1">
+          <mxGeometry x="-2770" y="3010" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SGE-m0KxP_jJ5czWhdAc-158" target="SGE-m0KxP_jJ5czWhdAc-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-158" value="Injection service&lt;br&gt;(ffc-pay-injection)" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-2587.78" y="3008.5299999999997" width="50" height="44.12" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.048;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SGE-m0KxP_jJ5czWhdAc-160" target="SGE-m0KxP_jJ5czWhdAc-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-160" value="Payment topic&lt;br&gt;(ffc-pay-payment-request)" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="-2424.78" y="3002.65" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SGE-m0KxP_jJ5czWhdAc-162" target="SGE-m0KxP_jJ5czWhdAc-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-162" value="Enrichment service&lt;br&gt;(ffc-pay-enrichment)" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-2230.38" y="3005.5899999999997" width="50" height="44.12" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.048;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SGE-m0KxP_jJ5czWhdAc-165" target="SGE-m0KxP_jJ5czWhdAc-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-165" value="Processing topic&lt;br&gt;(ffc-pay-processing)" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="-2036.65" y="3004.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="SGE-m0KxP_jJ5czWhdAc-166">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1630" y="3029.4999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-166" value="Processing service&lt;br&gt;(ffc-pay-enrichment)" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1842.25" y="3007.4399999999996" width="50" height="44.12" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-173" value="&lt;ul&gt;&lt;li&gt;parse payment file&lt;/li&gt;&lt;li&gt;create payment request&lt;/li&gt;&lt;li&gt;set payment request number to 0&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2654.5" y="3110" width="292.78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-174" value="&lt;ul&gt;&lt;li&gt;allow payment request number 0&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2298.44" y="3110" width="292.78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SGE-m0KxP_jJ5czWhdAc-175" value="&lt;ul&gt;&lt;li&gt;if payment request number is 0 perform delta calculation against all existing payment requests&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1900.63" y="3110" width="292.78" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
