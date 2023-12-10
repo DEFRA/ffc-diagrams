@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T11:01:02.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.7" etag="VUyavzvKjXCuw4WMBx_5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T11:15:31.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="fwN282C1Lh65fpAQiR8m" version="22.1.7" type="github">
   <diagram name="Page-1" id="DJably2wuHrD-RC-VbBC">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-31" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="479" y="52" width="390" height="658" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-33" value="Defra" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="689" y="82" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-32" value="Defra Cloud" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="499" y="82" width="160" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-17" value="Daisy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="90" y="530" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-11" value="Crown Hosting" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="370" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DiMd7wmb8hvg-6CgAYnp-1" target="DiMd7wmb8hvg-6CgAYnp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-1" value="Rural Payments" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DiMd7wmb8hvg-6CgAYnp-2" target="DiMd7wmb8hvg-6CgAYnp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-2" value="Siti Agri" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DiMd7wmb8hvg-6CgAYnp-3" target="DiMd7wmb8hvg-6CgAYnp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-3" value="LMS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-4" value="LPIS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-5" value="Data Warehouse" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-6" value="Version 1 Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-7" value="Managed Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-8" value="IMPS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-9" value="DPS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-16" value="FMO Unity" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-10" value="Genesis" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-18" value="Callisto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-20" value="Farming Front Door" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="519" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-22" value="Vet Visits" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="519" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-23" value="Payment Hub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="519" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-24" value="Documents" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="519" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-26" value="Progressive Reductions Calculator" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="519" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-27" value="Grants" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="519" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-28" value="Making Payment Data Public" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="519" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-29" value="Dynamics CRM" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="709" y="107" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-30" value="Dynamics FinOps (DAX)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="709" y="192" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
