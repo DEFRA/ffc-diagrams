@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T11:15:31.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="fwN282C1Lh65fpAQiR8m" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T11:17:44.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="59Ei5s-DNXlXa8gkwG1C" version="22.1.7" type="github">
   <diagram name="Page-1" id="DJably2wuHrD-RC-VbBC">
-    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2236" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,6 +90,33 @@
         </mxCell>
         <mxCell id="DiMd7wmb8hvg-6CgAYnp-30" value="Dynamics FinOps (DAX)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="709" y="192" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-36" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="-60" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-37" value="KITS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="-60" y="285" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-38" value="FCP" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="-60" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-39" value="CCoE" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="-60" y="436" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-40" value="1Spatial" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-41" value="Abaco" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="285" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-42" value="DDTS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-43" value="Hitachi" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="436" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-44" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="-60" y="220" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
