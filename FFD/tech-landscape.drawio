@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T11:17:44.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="59Ei5s-DNXlXa8gkwG1C" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T14:41:07.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="kF5X1oZEr6bxuqiGpUY_" version="22.1.7" type="github">
   <diagram name="Page-1" id="DJably2wuHrD-RC-VbBC">
     <mxGraphModel dx="2236" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DiMd7wmb8hvg-6CgAYnp-31" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="479" y="52" width="390" height="658" as="geometry" />
+          <mxGeometry x="479" y="52" width="390" height="698" as="geometry" />
         </mxCell>
         <mxCell id="DiMd7wmb8hvg-6CgAYnp-33" value="Defra" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="689" y="82" width="160" height="200" as="geometry" />
         </mxCell>
         <mxCell id="DiMd7wmb8hvg-6CgAYnp-32" value="Defra Cloud" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="499" y="82" width="160" height="590" as="geometry" />
+          <mxGeometry x="499" y="82" width="160" height="658" as="geometry" />
         </mxCell>
         <mxCell id="DiMd7wmb8hvg-6CgAYnp-17" value="Daisy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="90" y="530" width="370" height="180" as="geometry" />
@@ -117,6 +117,9 @@
         </mxCell>
         <mxCell id="DiMd7wmb8hvg-6CgAYnp-44" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
           <mxGeometry x="-60" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-46" value="Customer Registry" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="519" y="670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
