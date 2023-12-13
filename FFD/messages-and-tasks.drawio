@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T14:05:36.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="_hJn2Yq74Mpawjx-yfaz" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T14:10:06.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="8GQxo37Q7ZSAfVJVQe0V" version="22.1.8" type="github">
   <diagram name="Page-1" id="dYXtfFwurcNwbzcMY37W">
     <mxGraphModel dx="2026" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-2" value="Messages" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="50" width="80" height="70" as="geometry" />
+          <mxGeometry x="1020" y="50" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-4" target="0YbZIf-yBDhTOu-SZzjd-1">
           <mxGeometry relative="1" as="geometry" />
@@ -63,17 +63,42 @@
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-22" target="0YbZIf-yBDhTOu-SZzjd-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0YbZIf-yBDhTOu-SZzjd-22" value="Notifications" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0YbZIf-yBDhTOu-SZzjd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-25" target="0YbZIf-yBDhTOu-SZzjd-13">
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-22" target="0YbZIf-yBDhTOu-SZzjd-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0YbZIf-yBDhTOu-SZzjd-25" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-35" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0YbZIf-yBDhTOu-SZzjd-32">
+          <mxGeometry x="0.34" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-36" value="Get contact preferences" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0YbZIf-yBDhTOu-SZzjd-32">
+          <mxGeometry x="0.36" y="-3" relative="1" as="geometry">
+            <mxPoint x="-26" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-22" value="Front Door Notifications" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-27" value="Check" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-25" target="0YbZIf-yBDhTOu-SZzjd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-25" value="Farmer" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="1250" y="460" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0YbZIf-yBDhTOu-SZzjd-29" value="Periodically call CAP API to retrieve all messages for all organisations.&lt;br&gt;&lt;br&gt;Would require service account" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-29" value="Periodically call CAP API to retrieve all messages for all organisations and convert to standard format.&lt;br&gt;&lt;br&gt;Would require service account" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="820" y="260" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-30" value="Consume messages in standard format.&amp;nbsp; Publish notification dependent on content.&amp;nbsp; Maintain store of messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-31" target="0YbZIf-yBDhTOu-SZzjd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-31" value="Front Door Preferences" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-33" value="Preferences" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="440" width="80" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
