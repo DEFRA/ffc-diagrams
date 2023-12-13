@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T14:10:06.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="8GQxo37Q7ZSAfVJVQe0V" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T14:12:09.126Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="YeBOv6fWsuQu3Fbq_q0d" version="22.1.8" type="github">
   <diagram name="Page-1" id="dYXtfFwurcNwbzcMY37W">
     <mxGraphModel dx="2026" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-22" value="Front Door Notifications" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0YbZIf-yBDhTOu-SZzjd-27" value="Check" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-25" target="0YbZIf-yBDhTOu-SZzjd-13">
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-27" value="View" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-25" target="0YbZIf-yBDhTOu-SZzjd-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-25" value="Farmer" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
@@ -99,6 +99,12 @@
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-33" value="Preferences" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1520" y="440" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-37" value="Publish alerts to farmer through preferred channel" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="410" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-38" value="Display messages to user from store and directs to other services for action" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="360" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
