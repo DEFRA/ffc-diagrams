@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T14:17:14.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="DoKyYkSx_lyw4nmKL_WO" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T14:21:08.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="FASU83y92UHvp5SYo7Ib" version="22.1.8" type="github">
   <diagram name="Page-1" id="dYXtfFwurcNwbzcMY37W">
     <mxGraphModel dx="2026" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0YbZIf-yBDhTOu-SZzjd-11" value="Message consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-11" value="Message orchestration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-13" value="Front Door Message Viewer" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
@@ -91,8 +91,8 @@
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-29" value="Periodically call CAP API to retrieve all messages for all organisations and convert to standard format.&lt;br&gt;&lt;br&gt;Would require service account" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="820" y="260" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0YbZIf-yBDhTOu-SZzjd-30" value="Consume messages in standard format.&amp;nbsp; Publish notification dependent on content.&amp;nbsp; Maintain store of messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1115" y="80" width="160" height="30" as="geometry" />
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-30" value="Publish messages in standard format" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="175" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-31" target="0YbZIf-yBDhTOu-SZzjd-33">
           <mxGeometry relative="1" as="geometry" />
@@ -133,6 +133,9 @@
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-51" value="Pull messages only when user access Front Door.&lt;br&gt;&lt;br&gt;Means notifications cannot be sent by Front Door" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="610" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-52" value="Consume messages in standard format.&amp;nbsp; Publish notification dependent on content.&amp;nbsp; Maintain store of messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="90" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
