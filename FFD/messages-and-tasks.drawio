@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T14:25:27.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="jG1Gg1CwcJu_pRImzF6s" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T14:31:39.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ZsjNzMJtANQH5pX4Uj9t" version="22.1.8" type="github">
   <diagram name="Page-1" id="dYXtfFwurcNwbzcMY37W">
     <mxGraphModel dx="2026" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-15" value="Vet Visits" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="1420" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-11" target="0YbZIf-yBDhTOu-SZzjd-2">
           <mxGeometry relative="1" as="geometry" />
@@ -92,7 +92,7 @@
           <mxGeometry x="820" y="260" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-30" value="Publish messages in standard format" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="175" width="160" height="30" as="geometry" />
+          <mxGeometry x="1550" y="175" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-31" target="0YbZIf-yBDhTOu-SZzjd-33">
           <mxGeometry relative="1" as="geometry" />
@@ -147,6 +147,33 @@
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-53" value="Dynamics CRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1330" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-55" target="0YbZIf-yBDhTOu-SZzjd-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="260" />
+              <mxPoint x="1400" y="220" />
+              <mxPoint x="1250" y="220" />
+              <mxPoint x="1250" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-55" value="Front Door Marketing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-59" target="0YbZIf-yBDhTOu-SZzjd-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-62" value="Create and schedule" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0YbZIf-yBDhTOu-SZzjd-61">
+          <mxGeometry x="0.0333" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-59" value="RPA" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="230" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-64" value="Create alerts to all/specific organisations&lt;br&gt;&lt;br&gt;Needs service account" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="280" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
