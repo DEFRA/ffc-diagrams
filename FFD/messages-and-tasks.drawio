@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T14:21:08.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="FASU83y92UHvp5SYo7Ib" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T14:25:27.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="jG1Gg1CwcJu_pRImzF6s" version="22.1.8" type="github">
   <diagram name="Page-1" id="dYXtfFwurcNwbzcMY37W">
-    <mxGraphModel dx="2026" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2026" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-42" value="Alternative approach" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="540" y="460" width="400" height="210" as="geometry" />
+          <mxGeometry x="570" y="460" width="370" height="210" as="geometry" />
         </mxCell>
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-43" target="0YbZIf-yBDhTOu-SZzjd-48">
           <mxGeometry relative="1" as="geometry" />
@@ -134,8 +134,19 @@
         <mxCell id="0YbZIf-yBDhTOu-SZzjd-51" value="Pull messages only when user access Front Door.&lt;br&gt;&lt;br&gt;Means notifications cannot be sent by Front Door" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="610" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0YbZIf-yBDhTOu-SZzjd-52" value="Consume messages in standard format.&amp;nbsp; Publish notification dependent on content.&amp;nbsp; Maintain store of messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1125" y="90" width="160" height="30" as="geometry" />
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-52" value="Consume messages in standard format.&amp;nbsp; &lt;br&gt;&lt;br&gt;Publish notification dependent on content.&amp;nbsp; &lt;br&gt;&lt;br&gt;Maintain store of messages&lt;br&gt;&lt;br&gt;Orchestrate updates to and from CRM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="-40" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="0YbZIf-yBDhTOu-SZzjd-53" target="0YbZIf-yBDhTOu-SZzjd-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="130" />
+              <mxPoint x="1190" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YbZIf-yBDhTOu-SZzjd-53" value="Dynamics CRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
