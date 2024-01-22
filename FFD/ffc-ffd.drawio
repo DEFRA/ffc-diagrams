@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T15:33:09.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="7eqFnCyW6Vj_6riQdpcf" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T17:12:29.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="5Ma72T2_4sqUcLwHTDek" version="22.1.21" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2876" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-61" value="Authentication" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="860" y="40" width="630" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-60" value="Consuming service" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-510" width="630" height="550" as="geometry" />
+        </mxCell>
         <mxCell id="NlqIU7g1sl2VzuKfXVhx-12" value="Backend microservices" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-680" y="860" width="380" height="80" as="geometry" />
         </mxCell>
@@ -209,6 +215,79 @@
         </mxCell>
         <mxCell id="8Ut4r5O9OXigDMhZoOCw-26" value="/business" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="-220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-29" target="8Ut4r5O9OXigDMhZoOCw-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-29" value="User attempts to access restricted content" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="-480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-33" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-30" target="8Ut4r5O9OXigDMhZoOCw-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-30" target="8Ut4r5O9OXigDMhZoOCw-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-30" value="Is user authenticated in service?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="-320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-32" value="Allow access" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="-320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-34" target="8Ut4r5O9OXigDMhZoOCw-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-34" value="Capture where user was trying to access" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="-150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-36" target="8Ut4r5O9OXigDMhZoOCw-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-36" value="Redirect to Authentication service with redirect url" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-40" target="8Ut4r5O9OXigDMhZoOCw-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-51" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-40" target="8Ut4r5O9OXigDMhZoOCw-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-40" value="Is user authenticated in FFD?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="236" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-42" target="8Ut4r5O9OXigDMhZoOCw-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-42" value="Return existing token to redirect url" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="879" y="246" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-48" value="Redirect user to Defra Identity sign in saving redirect as state property" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="406" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-53" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-50" target="8Ut4r5O9OXigDMhZoOCw-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-56" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-50" target="8Ut4r5O9OXigDMhZoOCw-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-50" value="Is&lt;br&gt;&amp;nbsp;original service part of FFD?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="236" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-52" target="8Ut4r5O9OXigDMhZoOCw-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="-280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-52" value="Set FFD auth tokens in cookies and redirect to redirect url" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-57" target="8Ut4r5O9OXigDMhZoOCw-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ut4r5O9OXigDMhZoOCw-57" value="Persist token using preferred session strategy, redirect to original location" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="879" y="-310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
