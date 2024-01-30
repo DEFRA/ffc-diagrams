@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T11:29:26.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ozs1KejZXSrkjbGqjhGT" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T12:51:00.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="42SJ5B2RscRCmaNX_AaC" version="22.1.21" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
-    <mxGraphModel dx="2876" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2876" dy="3345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-1" value="Defra Identity" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-1" value="Defra Identity" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1020" y="480" width="630" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8Ut4r5O9OXigDMhZoOCw-61" value="Authentication" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
@@ -264,7 +264,7 @@
         <mxCell id="8Ut4r5O9OXigDMhZoOCw-42" value="Return existing token to redirect url" style="whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="1039" y="246" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Ut4r5O9OXigDMhZoOCw-48" target="6Wvl-TA1j8fAGBfHOiLJ-4">
+        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Ut4r5O9OXigDMhZoOCw-48" target="6Wvl-TA1j8fAGBfHOiLJ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Ut4r5O9OXigDMhZoOCw-48" value="Redirect user to Defra Identity sign in saving redirect as state property" style="whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
@@ -295,23 +295,129 @@
         <mxCell id="8Ut4r5O9OXigDMhZoOCw-57" value="Persist token using preferred session strategy, redirect to original location" style="whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="1039" y="-310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Wvl-TA1j8fAGBfHOiLJ-4" target="6Wvl-TA1j8fAGBfHOiLJ-7">
+        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6Wvl-TA1j8fAGBfHOiLJ-4" target="6Wvl-TA1j8fAGBfHOiLJ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-4" value="Sign in user and create token" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-4" value="Sign in user and create token" style="whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="1375" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Wvl-TA1j8fAGBfHOiLJ-7" target="6Wvl-TA1j8fAGBfHOiLJ-10">
+        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6Wvl-TA1j8fAGBfHOiLJ-7" target="6Wvl-TA1j8fAGBfHOiLJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-7" value="Return user to common Authentication service path with access code for token" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-7" value="Return user to common Authentication service path with access code for token" style="whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="1215" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Wvl-TA1j8fAGBfHOiLJ-10" target="8Ut4r5O9OXigDMhZoOCw-50">
+        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6Wvl-TA1j8fAGBfHOiLJ-10" target="8Ut4r5O9OXigDMhZoOCw-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-10" value="Retrieve token with access code" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="6Wvl-TA1j8fAGBfHOiLJ-10" value="Retrieve token with access code" style="whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="1215" y="406" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-20" value="Authenticate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-1" target="Ssebxb7LkZlIM9vVnngl-3">
+          <mxGeometry x="-0.1579" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-22" value="Request data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-1" target="Ssebxb7LkZlIM9vVnngl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-1" value="Farming Front Door" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-128.png" vertex="1" parent="1">
+          <mxGeometry x="565" y="-976" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-3" target="Ssebxb7LkZlIM9vVnngl-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="663" y="-1020" />
+              <mxPoint x="610" y="-1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-3" value="Defra Identity" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="-1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" vertex="1" parent="1">
+          <mxGeometry x="646.33" y="-1128" width="32.34" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-26" value="Authenticate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-6" target="Ssebxb7LkZlIM9vVnngl-13">
+          <mxGeometry x="-0.1608" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-33" value="Request data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-6" target="Ssebxb7LkZlIM9vVnngl-13">
+          <mxGeometry x="-0.2742" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1105" y="-970" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-6" value="Customer Registry" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-128.png" vertex="1" parent="1">
+          <mxGeometry x="895" y="-976" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-8" value="KITS Gateway" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="-1143" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-10" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.gateway" vertex="1" parent="1">
+          <mxGeometry x="1345" y="-1119" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-11" value="Version 1 Gateway" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="-1143" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.gateway" vertex="1" parent="1">
+          <mxGeometry x="1535" y="-1119" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-13" target="Ssebxb7LkZlIM9vVnngl-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="-1020" />
+              <mxPoint x="940" y="-1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-13" value="Azure API Management" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-1143" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-15" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="1039" y="-1120" width="32.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-17" value="Defra ID&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="678.6700000000001" y="-1080" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-19" value="Log in" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-18" target="Ssebxb7LkZlIM9vVnngl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-18" value="Customer" style="image;html=1;image=img/lib/clip_art/people/Farmer_Woman_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="360" y="-1003" width="60" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-23" value="GraphQL" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/brands-pack/240/graphql-128.png" vertex="1" parent="1">
+          <mxGeometry x="840" y="-957" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-24" value="Defra ID&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="740.0000000000001" y="-962.95" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-28" value="APIM&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#6666FF;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="-1070" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-29" value="Rural Payments" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1701" y="-1143" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-31" value="Siti Agri" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1701" y="-1063" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-32" value="LMS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1701" y="-983" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-34" value="Defra ID&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-962.96" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-35" value="APIM&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#6666FF;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-962.95" width="15" height="31.91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
