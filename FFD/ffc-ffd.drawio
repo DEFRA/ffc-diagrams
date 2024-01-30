@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T13:10:33.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="NHPSv-mB9JjZMqkKq3qY" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T13:30:10.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="J6p9jC7bofExCSHbZ3T-" version="22.1.21" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2876" dy="3345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -335,6 +335,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-61" value="Authenticate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-3" target="Ssebxb7LkZlIM9vVnngl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="663" y="-1190" />
+              <mxPoint x="1670" y="-1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ssebxb7LkZlIM9vVnngl-3" value="Defra Identity" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="602.5" y="-1150" width="120" height="60" as="geometry" />
         </mxCell>
@@ -362,6 +370,11 @@
         </mxCell>
         <mxCell id="Ssebxb7LkZlIM9vVnngl-39" value="Request data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-8" target="Ssebxb7LkZlIM9vVnngl-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" target="Ssebxb7LkZlIM9vVnngl-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="-1190" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ssebxb7LkZlIM9vVnngl-8" value="KITS Gateway" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1360" y="-1143" width="120" height="60" as="geometry" />
