@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T13:30:10.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="J6p9jC7bofExCSHbZ3T-" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T15:23:18.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="_P4fVWYDGZhsdyFeHTnY" version="22.1.21" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2876" dy="3345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -492,6 +492,54 @@
         </mxCell>
         <mxCell id="Ssebxb7LkZlIM9vVnngl-60" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.deacapitalaf.com/wp-content/uploads/2021/09/LOGO_ABACO-1.png;" vertex="1" parent="1">
           <mxGeometry x="2055" y="-1119" width="30" height="32.86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-64" value="Authenticate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-66" target="Ssebxb7LkZlIM9vVnngl-69">
+          <mxGeometry x="-0.1608" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-65" value="Request data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-66" target="Ssebxb7LkZlIM9vVnngl-69">
+          <mxGeometry x="-0.2742" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="-1517" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-66" value="FFD Data" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="975" y="-1547" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-67" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-128.png" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-1523" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ssebxb7LkZlIM9vVnngl-69" target="Ssebxb7LkZlIM9vVnngl-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="-1567" />
+              <mxPoint x="1065" y="-1567" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-69" value="Azure API Management" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="-1690" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-70" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="-1667" width="32.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-71" value="GraphQL" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/brands-pack/240/graphql-128.png" vertex="1" parent="1">
+          <mxGeometry x="965" y="-1504" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-72" value="APIM&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#6666FF;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-1617" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-73" value="Defra ID&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="-1509.96" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-74" value="APIM&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#6666FF;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="-1509.95" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-75" value="Token cache" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="-1504" width="30" height="25.2" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
