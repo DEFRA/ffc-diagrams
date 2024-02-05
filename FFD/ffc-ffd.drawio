@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T10:56:55.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="kNF1RyWM9wln_16CN16j" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T10:57:19.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="BbmtTWzifM8qeX9_s7_6" version="23.0.2" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2876" dy="3345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -401,7 +401,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ssebxb7LkZlIM9vVnngl-50" value="Party data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ssebxb7LkZlIM9vVnngl-44" vertex="1" connectable="0">
+        <mxCell id="Ssebxb7LkZlIM9vVnngl-50" value="People and organisation data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ssebxb7LkZlIM9vVnngl-44" vertex="1" connectable="0">
           <mxGeometry x="0.5871" relative="1" as="geometry">
             <mxPoint x="-16" as="offset" />
           </mxGeometry>
