@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T10:27:39.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="WtoX45U_gaOdXpdPGNOq" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T10:39:38.679Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="nFIXVWAb-cHt0YBPD8li" version="24.0.7" type="github">
   <diagram name="Page-1" id="2g7X5N9MNnFHZrMPLAFf">
     <mxGraphModel dx="2026" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
         <mxCell id="oaBEjWoSFNYECVUoLakl-59" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-56" target="oaBEjWoSFNYECVUoLakl-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oaBEjWoSFNYECVUoLakl-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-56" target="oaBEjWoSFNYECVUoLakl-60">
+        <mxCell id="oaBEjWoSFNYECVUoLakl-61" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-56" target="oaBEjWoSFNYECVUoLakl-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oaBEjWoSFNYECVUoLakl-56" value="Is organisation locked?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -175,11 +175,86 @@
         <mxCell id="oaBEjWoSFNYECVUoLakl-63" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-60" target="oaBEjWoSFNYECVUoLakl-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-65" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-60" target="oaBEjWoSFNYECVUoLakl-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oaBEjWoSFNYECVUoLakl-60" value="Does user have correct permission" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="3900" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oaBEjWoSFNYECVUoLakl-62" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oaBEjWoSFNYECVUoLakl-62" value="Throw permission error" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="3910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-64" target="oaBEjWoSFNYECVUoLakl-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-64" value="Get CPH numbers from&amp;nbsp;/SitiAgriApi/cph/organisation/{organisationId}/cph-numbers" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="4070" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-71" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-68" target="oaBEjWoSFNYECVUoLakl-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-73" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-68" target="oaBEjWoSFNYECVUoLakl-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-68" value="Has at least one English CPH for Cattle, pig or sheep?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="4200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-70" value="Throw CPH error" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="4210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-72" target="oaBEjWoSFNYECVUoLakl-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-72" value="Check eligibility based on existing AHWP data" style="whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="4370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-77" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-74" target="oaBEjWoSFNYECVUoLakl-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-80" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-74" target="oaBEjWoSFNYECVUoLakl-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-74" value="Is eligible to apply?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="4500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-76" value="Throw ineligible error" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="4510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-78" value="Not shown in full" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="4385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-79" target="oaBEjWoSFNYECVUoLakl-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-79" value="Save authentication cookie" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="4670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-81" target="oaBEjWoSFNYECVUoLakl-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-81" value="Redirect to /org-review" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="4810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-87" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-85" target="oaBEjWoSFNYECVUoLakl-6">
+          <mxGeometry x="-0.9795" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="4980" />
+              <mxPoint x="120" y="560" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-89" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-85" target="oaBEjWoSFNYECVUoLakl-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-85" value="Is cookie present?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="4940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-88" value="Rest of AHWP journey" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="5100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-90" value="Not shown in full" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="5120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
