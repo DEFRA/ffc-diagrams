@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T10:44:44.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="7jLoK15C1V1MXeWo8LKF" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T10:47:45.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Udr5Gm18hDajNJlUzXPF" version="24.0.7" type="github">
   <diagram name="Page-1" id="2g7X5N9MNnFHZrMPLAFf">
     <mxGraphModel dx="2026" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="oaBEjWoSFNYECVUoLakl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-1" target="oaBEjWoSFNYECVUoLakl-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oaBEjWoSFNYECVUoLakl-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="oaBEjWoSFNYECVUoLakl-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="360" y="80" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oaBEjWoSFNYECVUoLakl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-2" target="oaBEjWoSFNYECVUoLakl-4">
@@ -255,6 +255,9 @@
         </mxCell>
         <mxCell id="oaBEjWoSFNYECVUoLakl-90" value="Not shown in full" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="5120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-91" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;AHWP Authentication&lt;/h1&gt;&lt;p&gt;This details the authentication of the AHWP service including login, permission and eligibility check.&lt;/p&gt;&lt;p&gt;Key takeaways:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AHWP does not use RBAC to protect routes&lt;/li&gt;&lt;li&gt;Routes protected by presence of auth token&lt;/li&gt;&lt;li&gt;Auth token cannot be present if not authenticated/hold correct permisson/eligible&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="90" width="260" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
