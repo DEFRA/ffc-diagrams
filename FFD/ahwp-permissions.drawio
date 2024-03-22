@@ -1,9 +1,186 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T10:51:52.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.0.7" etag="Diw5inFAqcxPm1sfSlll" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T10:27:39.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="WtoX45U_gaOdXpdPGNOq" version="24.0.7" type="github">
   <diagram name="Page-1" id="2g7X5N9MNnFHZrMPLAFf">
-    <mxGraphModel>
+    <mxGraphModel dx="2026" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oaBEjWoSFNYECVUoLakl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-1" target="oaBEjWoSFNYECVUoLakl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-2" target="oaBEjWoSFNYECVUoLakl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-2" value="User navigates to /apply/start" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-4" target="oaBEjWoSFNYECVUoLakl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-4" value="User clicks start" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-6" target="oaBEjWoSFNYECVUoLakl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-6" value="User redirected to Defra Identity sign in page with state and nonce" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-8" target="oaBEjWoSFNYECVUoLakl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-8" value="User enters CRN and Password" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-10" target="oaBEjWoSFNYECVUoLakl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-10" value="User redirected to organisation picker" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-12" target="oaBEjWoSFNYECVUoLakl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-12" value="User selects organisation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-14" target="oaBEjWoSFNYECVUoLakl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-14" value="User redirected back to AHWP at /signin-oidc with access code and state" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-16" target="oaBEjWoSFNYECVUoLakl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-16" value="Verify state" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-18" target="oaBEjWoSFNYECVUoLakl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-18" value="Get JWT access token from access code" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-20" target="oaBEjWoSFNYECVUoLakl-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-20" value="Verify JWT access token" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-22" target="oaBEjWoSFNYECVUoLakl-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-22" value="Verify nonce" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-24" target="oaBEjWoSFNYECVUoLakl-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-24" value="Save organisation and customer data from JWT to session (Redis)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-26" target="oaBEjWoSFNYECVUoLakl-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-26" value="Save JWT as cookie" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-28" target="oaBEjWoSFNYECVUoLakl-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-28" value="Get APIM access token" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-30" target="oaBEjWoSFNYECVUoLakl-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-30" value="Get APIM access token" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-32" target="oaBEjWoSFNYECVUoLakl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-32" value="Get person summary from /person/3337243/summary" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-34" target="oaBEjWoSFNYECVUoLakl-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-34" value="Save person Id in session (Redis)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-36" target="oaBEjWoSFNYECVUoLakl-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-36" value="Save person Id in session (Redis)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-38" target="oaBEjWoSFNYECVUoLakl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-38" value="Get organisation permissions from /SitiAgriApi/authorisation/organisation/{organisationId}/authorisation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2770" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-40" target="oaBEjWoSFNYECVUoLakl-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-40" value="Get person privileges from response" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-42" target="oaBEjWoSFNYECVUoLakl-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-42" value="Get person privileges from response" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-44" target="oaBEjWoSFNYECVUoLakl-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-44" value="Check if user has valid permission&lt;div&gt;(Submit - bps or Full permission - business)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3190" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-46" target="oaBEjWoSFNYECVUoLakl-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-46" value="Check if user has valid permission&lt;div&gt;(Submit - bps or Full permission - business)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="3330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-48" target="oaBEjWoSFNYECVUoLakl-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-48" value="Get organisation data from&amp;nbsp;/organisation/organisationId" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3470" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-50" target="oaBEjWoSFNYECVUoLakl-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-50" value="Save organisation permission and data to session (Redis)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="3610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-59" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-56" target="oaBEjWoSFNYECVUoLakl-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-56" target="oaBEjWoSFNYECVUoLakl-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-56" value="Is organisation locked?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-58" value="Throw locked business error" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="3750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-63" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oaBEjWoSFNYECVUoLakl-60" target="oaBEjWoSFNYECVUoLakl-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-60" value="Does user have correct permission" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3900" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaBEjWoSFNYECVUoLakl-62" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="3910" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
