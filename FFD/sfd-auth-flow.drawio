@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T12:44:14.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="8F-OG75dNy2nMKMIit7A" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T13:00:47.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="oAzYeuNhrxWwUE_PpAdN" version="24.1.0" type="github">
   <diagram name="Page-1" id="OJoKZxOTkwtENUvRTkFq">
     <mxGraphModel dx="2026" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -177,12 +177,13 @@
         <mxCell id="UUXOG9OIXgDzKAP4HwNj-120" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-114" target="UUXOG9OIXgDzKAP4HwNj-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UUXOG9OIXgDzKAP4HwNj-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-114" target="UUXOG9OIXgDzKAP4HwNj-125">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-139" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-114" target="UUXOG9OIXgDzKAP4HwNj-125">
+          <mxGeometry x="-0.955" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="750" y="2200" />
               <mxPoint x="750" y="3820" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UUXOG9OIXgDzKAP4HwNj-114" value="Does user have organisation Id in session?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -209,14 +210,32 @@
         <mxCell id="UUXOG9OIXgDzKAP4HwNj-133" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-127" target="UUXOG9OIXgDzKAP4HwNj-132">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-147" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-127" target="UUXOG9OIXgDzKAP4HwNj-146">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UUXOG9OIXgDzKAP4HwNj-127" value="Does user have JWT access token in cookie?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="3920" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UUXOG9OIXgDzKAP4HwNj-135" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-132" target="UUXOG9OIXgDzKAP4HwNj-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-148" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-132" target="UUXOG9OIXgDzKAP4HwNj-146">
+          <mxGeometry x="-0.7436" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UUXOG9OIXgDzKAP4HwNj-132" value="Does user have active session in Redis?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="4080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-143" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-134" target="UUXOG9OIXgDzKAP4HwNj-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-149" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-134" target="UUXOG9OIXgDzKAP4HwNj-146">
+          <mxGeometry x="-0.8182" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UUXOG9OIXgDzKAP4HwNj-134" value="Is session valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="4240" width="80" height="80" as="geometry" />
@@ -226,6 +245,31 @@
         </mxCell>
         <mxCell id="UUXOG9OIXgDzKAP4HwNj-136" value="Session set as valid (Redis)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="2010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-145" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-142" target="UUXOG9OIXgDzKAP4HwNj-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-151" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-142" target="UUXOG9OIXgDzKAP4HwNj-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-142" value="Does use have permission to access location?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="4400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-144" value="Display page at location" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="4560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UUXOG9OIXgDzKAP4HwNj-146" target="UUXOG9OIXgDzKAP4HwNj-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-146" value="Set current location as post authentication&lt;div&gt;redirect location&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UUXOG9OIXgDzKAP4HwNj-150" value="User redirected to not authorised page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="4400" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
