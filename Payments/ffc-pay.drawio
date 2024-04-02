@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T10:32:04.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="rCICaHJ7ZzRe5R61Mlsm" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T17:25:40.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="2pgWw3tsV83_MD0HVvWb" version="24.1.0" type="github">
   <diagram id="_1_elZYSAHYm358-CXUI" name="Page-1">
     <mxGraphModel dx="5334" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1009,6 +1009,57 @@
         </mxCell>
         <mxCell id="GXnvTZ7eSjo8pJhjXMxf-1" value="Payment File" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/12.File-128.png;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-3051" y="1987.87" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-3" value="Payment Hub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-801.25" y="2803.1" width="181.25" height="86.9" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-4" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-735.63" y="2835.43" width="50" height="44.12" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-1/24/bx-broadcast-128.png" vertex="1" parent="1">
+          <mxGeometry x="-750.62" y="2723.1" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GXnvTZ7eSjo8pJhjXMxf-23" target="GXnvTZ7eSjo8pJhjXMxf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-23" value="Enrichment" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1753.63" y="1519" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-24" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1698.63" y="1547.87" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GXnvTZ7eSjo8pJhjXMxf-26" target="GXnvTZ7eSjo8pJhjXMxf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-26" value="Processing" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1558.88" y="1519" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-27" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1503.88" y="1547.87" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-28" value="Submission" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1361.63" y="1519" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-29" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1306.63" y="1547.87" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-1/24/bx-broadcast-128.png" vertex="1" parent="1">
+          <mxGeometry x="-968" y="1650" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-31" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1895.88" y="1611.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-32" value="FCP Documents Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1097" y="2450" width="181.25" height="86.9" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-33" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1031.38" y="2482.33" width="50" height="44.12" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-34" value="Event Store" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="2826.55" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GXnvTZ7eSjo8pJhjXMxf-35" value="" style="shape=mxgraph.cisco.wireless.antenna;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-459.5" y="2749.45" width="69" height="77.1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
