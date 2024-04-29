@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T11:01:33.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="wKiMJAXTRkcwXGwpehpv" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T11:09:08.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="spI3Zw3WOMkobN1-uIJU" version="24.3.1" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2876" dy="3345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UomNAWNy6G-qspGdyv1U-49" value="Micro frontends" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="780" width="150" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="c_0wZ_f5kggsGGAjqddH-25" value="Crown Hosting" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;dashPattern=1 4;" parent="1" vertex="1">
           <mxGeometry x="1580" y="-1580" width="630" height="180" as="geometry" />
         </mxCell>
@@ -945,6 +948,50 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1056" y="1729" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UomNAWNy6G-qspGdyv1U-33" target="UomNAWNy6G-qspGdyv1U-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1920" y="920" />
+              <mxPoint x="1770" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-33" value="Payment receiver" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-128.png" vertex="1" parent="1">
+          <mxGeometry x="1905" y="834" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UomNAWNy6G-qspGdyv1U-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-36" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UomNAWNy6G-qspGdyv1U-42" target="UomNAWNy6G-qspGdyv1U-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="920" />
+              <mxPoint x="1770" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-42" value="Application receiver" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-128.png" vertex="1" parent="1">
+          <mxGeometry x="2055" y="834" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UomNAWNy6G-qspGdyv1U-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UomNAWNy6G-qspGdyv1U-45" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="2055" y="730" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
