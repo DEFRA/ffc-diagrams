@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T09:56:35.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="9B7qHef4JSxTNjWebarv" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T10:19:18.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="U0NOR6eHZqd6rC9zcmxr" version="24.4.10" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2924" dy="3342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1516,16 +1516,25 @@
           <mxGeometry x="1855" y="1850" width="147" height="83" as="geometry" />
         </mxCell>
         <mxCell id="ejPU6S_XVIt5L0jb9NJZ-21" value="&lt;b&gt;External users require Defra Identity token whilst internal users and backend services need email address associated with RPS user&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1583.25" y="2327.5" width="173.5" height="102.5" as="geometry" />
+          <mxGeometry x="1576.5" y="2288.5" width="173.5" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="ejPU6S_XVIt5L0jb9NJZ-22" value="&lt;b&gt;Each microservice has it&#39;s own GitHub repository, CI/CD, version and deployment&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="720.17" y="2786" width="147" height="95" as="geometry" />
         </mxCell>
         <mxCell id="ejPU6S_XVIt5L0jb9NJZ-23" value="&lt;b&gt;Preferences and queries only updated so can be updated by GraphQL mutations&lt;/b&gt; &lt;b&gt;(TBC)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1591.5" y="2754" width="147" height="91" as="geometry" />
+          <mxGeometry x="1553" y="2750" width="147" height="91" as="geometry" />
         </mxCell>
         <mxCell id="ejPU6S_XVIt5L0jb9NJZ-24" value="&lt;b&gt;Cross service integration is async allowing decoupling&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1138" y="2735" width="147" height="51" as="geometry" />
+          <mxGeometry x="1088" y="2703" width="147" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="ejPU6S_XVIt5L0jb9NJZ-25" value="&lt;b&gt;Receivers sanitise data and route any other processing needed&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1250.17" y="2384.5299999999997" width="147" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="ejPU6S_XVIt5L0jb9NJZ-26" value="&lt;b&gt;Session managed in JWT cookie and Redis&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2209.91" width="127" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ejPU6S_XVIt5L0jb9NJZ-27" value="&lt;b&gt;APIM is only integration route to Crown Hosting, all APIs on Version 1 Gateway need replicating here&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="1890" width="147" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
