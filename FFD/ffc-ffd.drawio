@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T08:39:13.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="WzeylxNhnwtx1maoLSsI" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T09:00:21.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="BDEHVmFoYQy68L011VEu" version="24.4.10" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
-    <mxGraphModel dx="2924" dy="3294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2924" dy="3342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1499,6 +1499,18 @@
         </mxCell>
         <mxCell id="ejPU6S_XVIt5L0jb9NJZ-10" value="Email" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#dae8fc;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1785" y="2243" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="ejPU6S_XVIt5L0jb9NJZ-16" value="&lt;b&gt;Front Door, App Gateway and Ingress Controller are ADP common infrastructure&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="119" y="2507" width="147" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ejPU6S_XVIt5L0jb9NJZ-17" value="&lt;b&gt;Ingress supports NGINX mergeable ingress types to host multiple microfrontends under a single domain&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="463" y="2486" width="147" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ejPU6S_XVIt5L0jb9NJZ-18" value="&lt;b&gt;Defra Identity supports external user authentication only, sign in and organisation selection pages owned by Defra Identity&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="2036.9099999999999" width="147" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ejPU6S_XVIt5L0jb9NJZ-19" value="&lt;b&gt;All APIs require Caller Id for authentication&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2085" y="2180" width="147" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
