@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T09:27:01.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="mRjBrVFuf6ZdCzmSNC2O" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T09:29:59.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="v8J2e-jUXFFHHolPU6NG" version="24.4.10" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2924" dy="3342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1598,7 +1598,10 @@
           <mxGeometry x="1553" y="2499.5" width="147" height="51" as="geometry" />
         </mxCell>
         <mxCell id="UkcLfRs2BA3zMpc-wc-a-16" value="Do queries also need to be in Dynamics and need similar pattern to messages?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="933" y="2900" width="147" height="66" as="geometry" />
+          <mxGeometry x="1563" y="3085" width="147" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UkcLfRs2BA3zMpc-wc-a-17" target="UkcLfRs2BA3zMpc-wc-a-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UkcLfRs2BA3zMpc-wc-a-17" value="ffc-sfd-documents" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="733.67" y="2770" width="120" height="60" as="geometry" />
@@ -1608,6 +1611,15 @@
         </mxCell>
         <mxCell id="UkcLfRs2BA3zMpc-wc-a-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png" vertex="1" parent="1">
           <mxGeometry x="835" y="2812" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-25" value="Documents" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="2950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-27" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="965" y="2972.76" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-28" value="Need to confirm Documents team will be delivering this component and integration pattern" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="906.5" y="3025" width="147" height="91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
