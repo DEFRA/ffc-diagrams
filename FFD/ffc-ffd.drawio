@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T09:23:31.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="uYds5QXlx5HwbD7tusEg" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T09:27:01.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="mRjBrVFuf6ZdCzmSNC2O" version="24.4.10" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2924" dy="3342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dk8BYFtxunrYo2NUxRlg-69" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;dashPattern=1 4;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="2000" width="1660" height="1220" as="geometry" />
+        </mxCell>
         <mxCell id="3SMTHsXSQDbWLtX_6tBN-83" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;dashPattern=1 4;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="1117.5" y="2364" width="435" height="626" as="geometry" />
-        </mxCell>
-        <mxCell id="dk8BYFtxunrYo2NUxRlg-69" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;dashPattern=1 4;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="2000" width="1660" height="1280" as="geometry" />
         </mxCell>
         <mxCell id="UomNAWNy6G-qspGdyv1U-49" value="Micro frontends" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1290" y="780" width="150" height="320" as="geometry" />
@@ -1000,7 +1000,7 @@
           <mxGeometry x="2055" y="730" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dk8BYFtxunrYo2NUxRlg-1" value="Micro-frontends" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;dashPattern=1 4;fillColor=none;align=left;" parent="1" vertex="1">
-          <mxGeometry x="630" y="2170" width="255" height="590" as="geometry" />
+          <mxGeometry x="630" y="2170" width="255" height="680" as="geometry" />
         </mxCell>
         <mxCell id="dk8BYFtxunrYo2NUxRlg-2" value="Crown Hosting" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;dashPattern=1 4;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1585" y="1950" width="800" height="370" as="geometry" />
@@ -1214,6 +1214,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3SMTHsXSQDbWLtX_6tBN-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dk8BYFtxunrYo2NUxRlg-50" target="3SMTHsXSQDbWLtX_6tBN-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dk8BYFtxunrYo2NUxRlg-50" target="UkcLfRs2BA3zMpc-wc-a-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dk8BYFtxunrYo2NUxRlg-50" value="ffc-sfd-ingress" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
@@ -1527,7 +1530,7 @@
           <mxGeometry x="1576.5" y="2288.5" width="173.5" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="ejPU6S_XVIt5L0jb9NJZ-22" value="&lt;b&gt;Each microservice has it&#39;s own GitHub repository, CI/CD, version and deployment&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="720.17" y="2786" width="147" height="95" as="geometry" />
+          <mxGeometry x="693.67" y="2864" width="147" height="95" as="geometry" />
         </mxCell>
         <mxCell id="ejPU6S_XVIt5L0jb9NJZ-23" value="&lt;b&gt;Preferences and queries only updated so can be updated by GraphQL mutations&lt;/b&gt; &lt;b&gt;(TBC)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1550.5" y="2841" width="147" height="91" as="geometry" />
@@ -1596,6 +1599,15 @@
         </mxCell>
         <mxCell id="UkcLfRs2BA3zMpc-wc-a-16" value="Do queries also need to be in Dynamics and need similar pattern to messages?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="933" y="2900" width="147" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-17" value="ffc-sfd-documents" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="733.67" y="2770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-128.png" vertex="1" parent="1">
+          <mxGeometry x="778.67" y="2794" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png" vertex="1" parent="1">
+          <mxGeometry x="835" y="2812" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
