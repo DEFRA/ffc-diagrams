@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T09:45:49.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="57bWw7XIJGW05ZoGwh8G" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T09:46:12.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="deAG4SMRy2R6x_ehv2qP" version="24.4.10" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2924" dy="3342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1639,8 +1639,8 @@
         <mxCell id="UkcLfRs2BA3zMpc-wc-a-31" value="&lt;div&gt;Intranet&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="-193" y="2495" width="50" height="31.5" as="geometry" />
         </mxCell>
-        <mxCell id="UkcLfRs2BA3zMpc-wc-a-36" value="Need to further consider internal user session" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="510" y="2293" width="147" height="51" as="geometry" />
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-36" value="Need to further consider internal user session and auth, portal credentials or AD?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2293" width="147" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
