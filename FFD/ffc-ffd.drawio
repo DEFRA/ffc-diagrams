@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T09:33:10.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="dVdsdvZTLn0GiXgiCyt3" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T09:43:27.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="q7b9gRPyjlrukwMXvDzM" version="24.4.10" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="2924" dy="3342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1138,8 +1138,11 @@
         <mxCell id="dk8BYFtxunrYo2NUxRlg-29" value="Defra ID&lt;br&gt;token" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="893.6700000000001" y="2100" width="15" height="31.91" as="geometry" />
         </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dk8BYFtxunrYo2NUxRlg-31" target="UkcLfRs2BA3zMpc-wc-a-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dk8BYFtxunrYo2NUxRlg-31" value="External user" style="image;html=1;image=img/lib/clip_art/people/Farmer_Woman_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="-290" y="2342" width="60" height="66" as="geometry" />
+          <mxGeometry x="-290" y="2331" width="60" height="66" as="geometry" />
         </mxCell>
         <mxCell id="dk8BYFtxunrYo2NUxRlg-32" value="GraphQL" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/brands-pack/240/graphql-128.png" parent="1" vertex="1">
           <mxGeometry x="1055" y="2223" width="20" height="20" as="geometry" />
@@ -1619,10 +1622,13 @@
           <mxGeometry x="906.5" y="3025" width="147" height="91" as="geometry" />
         </mxCell>
         <mxCell id="UkcLfRs2BA3zMpc-wc-a-29" value="Internal user" style="image;html=1;image=img/lib/clip_art/people/Tech_Man_128x128.png;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="2528" width="60" height="60" as="geometry" />
+          <mxGeometry x="-290" y="2475" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UkcLfRs2BA3zMpc-wc-a-30" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
-          <mxGeometry x="-193" y="2359.25" width="50" height="31.5" as="geometry" />
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-30" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="2348.5" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UkcLfRs2BA3zMpc-wc-a-31" value="&lt;div&gt;Intranet&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="2490.5" width="50" height="31.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
