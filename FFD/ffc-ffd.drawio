@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T14:02:49.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="0rHNpRSq_4PgOOKJlIX7" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T14:19:57.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="43UZVIvV7gJoiBVFrDn-" version="24.5.2" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
     <mxGraphModel dx="4621" dy="4276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2366,6 +2366,9 @@
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-274" value="Some events may result in message or monitoring activity" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1725" y="4241.71" width="127" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-275" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png" vertex="1" parent="1">
+          <mxGeometry x="1537" y="4370" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
