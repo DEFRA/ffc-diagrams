@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T13:11:05.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="UOFuDO8WEPodAl5UjTdw" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T13:39:44.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="YcYCE-wfWQzYI5VYMeGD" version="24.5.2" type="github">
   <diagram name="Page-1" id="a4w3ySM6WO1sGtrOkUMh">
-    <mxGraphModel dx="2924" dy="3342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2825" dy="3288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1654,12 +1654,10 @@
         <mxCell id="SCAth_WDAvwvTYBE1HeD-4" value="Crown Hosting" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;dashPattern=1 4;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1688" y="3530" width="800" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="SCAth_WDAvwvTYBE1HeD-5" value="Authenticate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-6" target="SCAth_WDAvwvTYBE1HeD-10">
-          <mxGeometry x="-0.1579" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-6" target="SCAth_WDAvwvTYBE1HeD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-6" target="SCAth_WDAvwvTYBE1HeD-238">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-6" value="ffc-sfd-auth" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -2054,23 +2052,32 @@
         <mxCell id="SCAth_WDAvwvTYBE1HeD-121" value="Messages" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2064.34" y="4085.5" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-125" target="SCAth_WDAvwvTYBE1HeD-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-125" value="AHWP" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1830.5" y="5068.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1704" y="4650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-126" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="1875.5" y="5095.530000000001" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="1749" y="4677.030000000001" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-127" target="SCAth_WDAvwvTYBE1HeD-196">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-127" value="Grants" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1828" y="5238" width="120" height="60" as="geometry" />
+          <mxGeometry x="1843" y="4650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-128" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="1873" y="5265.030000000001" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="1888" y="4677.030000000001" width="30" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-129" target="SCAth_WDAvwvTYBE1HeD-196">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-129" value="Payment Hub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1830.5" y="4976" width="120" height="60" as="geometry" />
+          <mxGeometry x="1567" y="4650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-130" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="1875.5" y="5003.030000000001" width="30" height="26.47" as="geometry" />
+          <mxGeometry x="1612" y="4677.030000000001" width="30" height="26.47" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-138" target="SCAth_WDAvwvTYBE1HeD-25">
           <mxGeometry relative="1" as="geometry" />
@@ -2108,7 +2115,7 @@
           <mxGeometry x="566" y="4066" width="147" height="95" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-147" value="&lt;b&gt;Defra Identity supports external user authentication only, sign in and organisation selection pages owned by Defra Identity&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="705.5" y="3616.91" width="147" height="95" as="geometry" />
+          <mxGeometry x="909" y="3465" width="147" height="95" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-148" value="&lt;b&gt;All APIs require Caller ID for authentication&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2188" y="3760" width="147" height="43" as="geometry" />
@@ -2117,7 +2124,7 @@
           <mxGeometry x="1958" y="3430" width="147" height="83" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-151" value="&lt;b&gt;Each microservice has it&#39;s own GitHub repository, CI/CD, version and deployment&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="796.67" y="4444" width="147" height="95" as="geometry" />
+          <mxGeometry x="825.8299999999999" y="4420" width="147" height="95" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-155" value="&lt;b&gt;Session managed in JWT cookie and Redis&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="633" y="3789.91" width="127" height="65" as="geometry" />
@@ -2152,11 +2159,8 @@
         <mxCell id="SCAth_WDAvwvTYBE1HeD-172" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png" vertex="1" parent="1">
           <mxGeometry x="939.33" y="4353.71" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SCAth_WDAvwvTYBE1HeD-173" value="Documents" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1830.5" y="5466" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SCAth_WDAvwvTYBE1HeD-174" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="1873" y="5488.76" width="30" height="26.47" as="geometry" />
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-173" value="Document upload" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1397.17" y="4461.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-177" target="SCAth_WDAvwvTYBE1HeD-181">
           <mxGeometry relative="1" as="geometry" />
@@ -2176,17 +2180,11 @@
         <mxCell id="SCAth_WDAvwvTYBE1HeD-181" value="&lt;div&gt;Intranet&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="-90" y="4075" width="50" height="31.5" as="geometry" />
         </mxCell>
-        <mxCell id="SCAth_WDAvwvTYBE1HeD-182" value="Need to further consider internal user session and auth, portal credentials or AD?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="613" y="3873" width="147" height="67" as="geometry" />
-        </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-183" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-128.png" vertex="1" parent="1">
           <mxGeometry x="2375.5" y="5566" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-185" value="Data Integration Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1201.17" y="3843" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SCAth_WDAvwvTYBE1HeD-197" value="ffc-sfd-queries" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="1">
-          <mxGeometry x="1426.67" y="4470.46" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SCAth_WDAvwvTYBE1HeD-199" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-128.png" vertex="1" parent="1">
           <mxGeometry x="2069.34" y="4342.71" width="30" height="30" as="geometry" />
@@ -2278,6 +2276,49 @@
               <mxPoint x="2010" y="4484" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-237" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/iconoir-vol-3/24/question-mark-circle-128.png" vertex="1" parent="1">
+          <mxGeometry x="1442.17" y="4485.46" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-238" target="SCAth_WDAvwvTYBE1HeD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="3740" />
+              <mxPoint x="868" y="3740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-238" value="Microsoft Entra" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="750" y="3610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-240" value="&lt;div&gt;AD&amp;nbsp;&lt;/div&gt;&lt;div&gt;token&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#dae8fc;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="780.0000000000001" y="3680" width="15" height="31.91" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-5" value="Authenticate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SCAth_WDAvwvTYBE1HeD-6" target="SCAth_WDAvwvTYBE1HeD-10">
+          <mxGeometry x="-0.1579" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-243" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="798" y="3634.57" width="30" height="27.43" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-244" value="Email address must be extracted from AD token for data exchange" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1049" y="4426.46" width="127" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-245" value="Do queries also need to be in Dynamics and need similar pattern to messages?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2704.5" y="4410" width="147" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-246" value="Should CRM integration be Node.js like Online Bank or LogicApp like Documents?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2491" y="4219.71" width="147" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-248" value="Is CosmosDb the correct technology choice?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="4040.5" width="147" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-249" value="Assume Document upload is a common service offered by SFD but delivered by documents service." style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;align=center;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1389.5" y="4570" width="147" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="SCAth_WDAvwvTYBE1HeD-253" value="Docked services" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#99CCFF;sketch=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1700" y="4740" width="127" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
