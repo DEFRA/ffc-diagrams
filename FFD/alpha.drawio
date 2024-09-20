@@ -796,23 +796,11 @@
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-236" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png" vertex="1" parent="1">
           <mxGeometry x="1727" y="2390" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FPo4aeZtGLVK7KoSFMX5-237" value="External actors" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="910" width="140" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="FPo4aeZtGLVK7KoSFMX5-238" value="Farming business" style="image;html=1;image=img/lib/clip_art/people/Farmer_Woman_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="80" y="950" width="60" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="FPo4aeZtGLVK7KoSFMX5-240" value="Farming business&amp;nbsp;&lt;div&gt;representative&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/people/Tech_Man_128x128.png;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1060" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-241" value="Single Front Door" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="200" y="910" width="490" height="270" as="geometry" />
         </mxCell>
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-242" value="Landing page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="234" y="950" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FPo4aeZtGLVK7KoSFMX5-246" value="Web portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="858" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-248" value="Docked Services" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="200" y="1200" width="490" height="110" as="geometry" />
@@ -850,17 +838,26 @@
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-261" value="Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="530" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FPo4aeZtGLVK7KoSFMX5-262" value="Dependencies" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="200" y="780" width="490" height="110" as="geometry" />
+        <mxCell id="FPo4aeZtGLVK7KoSFMX5-262" value="Integration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="490" height="190" as="geometry" />
         </mxCell>
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-263" value="Defra Identity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="235" y="815" width="120" height="60" as="geometry" />
+          <mxGeometry x="237.5" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-264" value="Rural Payments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="380" y="815" width="120" height="60" as="geometry" />
+          <mxGeometry x="382.5" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-265" value="Siti Agri" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="530" y="815" width="120" height="60" as="geometry" />
+          <mxGeometry x="532.5" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPo4aeZtGLVK7KoSFMX5-271" value="Trade API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPo4aeZtGLVK7KoSFMX5-272" value="Dynamics 365 (CRM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPo4aeZtGLVK7KoSFMX5-273" value="Payment Hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
