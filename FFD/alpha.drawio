@@ -39,7 +39,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FPo4aeZtGLVK7KoSFMX5-9" value="Ideation and analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="FPo4aeZtGLVK7KoSFMX5-9" value="Ideation and options analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#6c8ebf;gradientColor=#ffffff;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="470" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FPo4aeZtGLVK7KoSFMX5-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=30;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#FFFFFF;" edge="1" parent="1">
