@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="X4b3yvcf1elb5l9HZTJ7">
-    <mxGraphModel>
+    <mxGraphModel dx="2066" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FA7piKxfMd6m92GiCrz3-1" value="Abidemi Adio&lt;div&gt;Lead Developer&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-person-128.png;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-2" value="Simon Dunn&lt;div&gt;Senior Developer&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-person-128.png" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-3" value="Fay Toward&lt;div&gt;Senior Developer&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-person-128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-4" value="Shaun Fitzsimons&lt;div&gt;Senior Developer&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-person-128.png" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-5" value="Amirs Ishmuhametovs&lt;br&gt;&lt;div&gt;Junior Developer&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-person-128.png" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-6" value="Rana Salem&lt;br&gt;&lt;div&gt;Junior Developer&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-person-128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-7" value="Adam Kay&lt;br&gt;&lt;div&gt;Junior Developer&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-person-128.png" vertex="1" parent="1">
+          <mxGeometry x="450" y="440" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="580" as="sourcePoint" />
+            <mxPoint x="430" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="580" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-10" value="Context 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="168.5" y="250" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-11" value="Context 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="318.5" y="250" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FA7piKxfMd6m92GiCrz3-12" value="Context 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="81" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
