@@ -1,128 +1,365 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T14:57:38.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="tCFkx9Y-dZk7WJcVHUF5" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="DJably2wuHrD-RC-VbBC">
-    <mxGraphModel dx="2236" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2916" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-31" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-31" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="479" y="52" width="390" height="698" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-33" value="Defra" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-33" value="Defra" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="689" y="82" width="160" height="258" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-32" value="Defra Cloud" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-32" value="Defra Cloud" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="499" y="82" width="160" height="658" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-17" value="Daisy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-17" value="Daisy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="90" y="530" width="370" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-11" value="Crown Hosting" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-11" value="Crown Hosting" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="90" y="50" width="370" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DiMd7wmb8hvg-6CgAYnp-1" target="DiMd7wmb8hvg-6CgAYnp-6">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DiMd7wmb8hvg-6CgAYnp-1" target="DiMd7wmb8hvg-6CgAYnp-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-1" value="Rural Payments" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-1" value="Rural Payments" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DiMd7wmb8hvg-6CgAYnp-2" target="DiMd7wmb8hvg-6CgAYnp-6">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DiMd7wmb8hvg-6CgAYnp-2" target="DiMd7wmb8hvg-6CgAYnp-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-2" value="Siti Agri" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-2" value="Siti Agri" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DiMd7wmb8hvg-6CgAYnp-3" target="DiMd7wmb8hvg-6CgAYnp-6">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DiMd7wmb8hvg-6CgAYnp-3" target="DiMd7wmb8hvg-6CgAYnp-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-3" value="LMS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-3" value="LMS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-4" value="LPIS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-4" value="LPIS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="110" y="210" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-5" value="Data Warehouse" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-5" value="Data Warehouse" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-6" value="Version 1 Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-6" value="Version 1 Gateway" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-7" value="Managed Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-7" value="Managed Gateway" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-8" value="IMPS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-8" value="IMPS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-9" value="DPS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-9" value="DPS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-16" value="FMO Unity" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-16" value="FMO Unity" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="90" y="410" width="370" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-10" value="Genesis" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-10" value="Genesis" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="435" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-18" value="Callisto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-18" value="Callisto" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-20" value="Farming Front Door" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-20" value="Farming Front Door" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="519" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-22" value="Vet Visits" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-22" value="Vet Visits" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="519" y="195" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-23" value="Payment Hub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-23" value="Payment Hub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="519" y="275" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-24" value="Documents" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-24" value="Documents" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="519" y="355" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-26" value="Progressive Reductions Calculator" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-26" value="Progressive Reductions Calculator" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="519" y="435" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-27" value="Grants" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-27" value="Grants" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="519" y="515" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-28" value="Making Payment Data Public" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-28" value="Making Payment Data Public" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="519" y="595" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-29" value="Dynamics CRM" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-29" value="Dynamics CRM" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="709" y="107" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-30" value="Dynamics FinOps (DAX)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-30" value="Dynamics FinOps (DAX)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="709" y="192" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-36" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-36" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="-60" y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-37" value="KITS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-37" value="KITS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="-60" y="285" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-38" value="FCP" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-38" value="FCP" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="-60" y="360" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-39" value="CCoE" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-39" value="CCoE" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="-60" y="436" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-40" value="1Spatial" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-40" value="1Spatial" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="30" y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-41" value="Abaco" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-41" value="Abaco" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="30" y="285" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-42" value="DDTS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-42" value="DDTS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="30" y="360" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-43" value="Hitachi" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-43" value="Hitachi" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="30" y="436" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-44" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-44" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" parent="1" vertex="1">
           <mxGeometry x="-60" y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-46" value="Customer Registry" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-46" value="Customer Registry" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="519" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiMd7wmb8hvg-6CgAYnp-47" value="Defra Identity" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="DiMd7wmb8hvg-6CgAYnp-47" value="Defra Identity" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="709" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-1" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="910" y="829" width="550" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-2" value="Defra" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="945" width="210" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-3" value="FCP Platform" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="940" y="945" width="280" height="734" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-4" value="Daisy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1421" width="475" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-5" value="Crown Hosting" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="830" width="620" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvJdNRIa6-rXokFLoO46-7" target="yvJdNRIa6-rXokFLoO46-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-7" value="Rural Payments" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvJdNRIa6-rXokFLoO46-9" target="yvJdNRIa6-rXokFLoO46-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-9" value="Siti Agri" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvJdNRIa6-rXokFLoO46-11" target="yvJdNRIa6-rXokFLoO46-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-11" value="LMS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-12" value="LPIS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1050" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-13" value="Data Warehouse" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yvJdNRIa6-rXokFLoO46-14" target="yvJdNRIa6-rXokFLoO46-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yvJdNRIa6-rXokFLoO46-14" target="yvJdNRIa6-rXokFLoO46-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-14" value="Version 1 Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-15" value="Managed Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1521" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-16" value="IMPS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1521" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-17" value="DPS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1591" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-18" value="FMO Unity" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1250" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-19" value="Genesis" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-20" value="Callisto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1596" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-21" value="Single Front Door" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1039" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-22" value="AHWP" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1124" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-23" value="Payment Hub" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1204" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-24" value="Documents" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-25" value="Progressive Reductions Calculator" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-26" value="Grants" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-27" value="Making Payment Data Public" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1524" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-28" value="Dynamics CRM" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-29" value="Dynamics FinOps (DAX)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1055" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-31" value="KITS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="375" y="860" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-34" value="1Spatial" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1090" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-39" value="Bank Details Online" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1599" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-40" value="Defra Identity" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1133" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-41" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="930" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-42" value="Version 1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="415" y="1070" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-43" value="Abaco" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1010" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-44" value="DDTS&lt;div&gt;DWH&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-45" value="KITS&lt;div&gt;Internal Gateway&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="569" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-47" value="KITS&lt;div&gt;Internal Gateway&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="569" y="1033" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-50" value="KITS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="614" y="1100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-52" value="?" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1333" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-53" value="?" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="180" y="1273" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-54" value="?" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1531" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-55" value="?" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1606" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-56" value="?" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="300" y="1451" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-57" value="ATOS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="355" y="1539" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-58" value="ATOS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="355" y="1611" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-59" value="Payment Filter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1691" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-60" value="Transformation Layer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1771" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-61" value="DDTS&lt;div&gt;EST&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1699" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-62" value="DDTS&lt;div&gt;EST&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1771" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-64" value="CORE GB" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="770" y="1329" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-65" value="Kyndryl" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="770" y="1404" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-66" value="?" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1861" width="480" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-67" value="DORA" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1941" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-68" value="University&lt;div&gt;of&lt;/div&gt;&lt;div&gt;Southampton&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="1944" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-69" value="?" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="180" y="1884" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-70" value="GILES" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1941" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-71" value="CCoE&lt;div&gt;Azure&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="1170" y="859" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-72" value="DDTS&lt;div&gt;SFD&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="973" y="1044" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-73" value="Equal&lt;div&gt;Experts&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="973" y="1131" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-74" value="Eviden" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="973" y="1217" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-75" value="Eviden" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="973" y="1299" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-76" value="Eviden" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="973" y="1379" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-77" value="Equal&lt;div&gt;Experts&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="973" y="1459" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-78" value="None" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="973" y="1528" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-79" value="Hitachi" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="973" y="1614" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-80" value="Equal&lt;div&gt;Experts&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="1065" y="970" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-81" value="DDTS&lt;div&gt;CRM&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="1250" y="970" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-82" value="Hitachi" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1059" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-83" value="Condatis" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1139" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-84" value="Trade APIM" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-85" value="CapGemini" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1215" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-89" value="AWS" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1710" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-91" value="CDP" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1826" width="280" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-103" value="CCoE&lt;div&gt;AWS&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="1065" y="1741" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvJdNRIa6-rXokFLoO46-112" value="eSynergy" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png" vertex="1" parent="1">
+          <mxGeometry x="1065" y="1851" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
