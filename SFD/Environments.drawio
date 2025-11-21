@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="N1N7g5vAUtlQ3Z8gstuw-18" value="Crown Hosting" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="793" y="290" width="140" height="340" as="geometry" />
+          <mxGeometry x="793" y="290" width="140" height="420" as="geometry" />
         </mxCell>
         <mxCell id="N1N7g5vAUtlQ3Z8gstuw-8" value="Single Front Door" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="10" y="290" width="341" height="340" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry x="221" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N1N7g5vAUtlQ3Z8gstuw-9" value="Data Access Layer" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="400" y="290" width="340" height="340" as="geometry" />
+          <mxGeometry x="400" y="290" width="340" height="420" as="geometry" />
         </mxCell>
         <mxCell id="N1N7g5vAUtlQ3Z8gstuw-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N1N7g5vAUtlQ3Z8gstuw-10" target="N1N7g5vAUtlQ3Z8gstuw-20">
           <mxGeometry relative="1" as="geometry" />
@@ -122,7 +122,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N1N7g5vAUtlQ3Z8gstuw-43" value="Perf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="803" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="803" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N1N7g5vAUtlQ3Z8gstuw-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N1N7g5vAUtlQ3Z8gstuw-44" target="N1N7g5vAUtlQ3Z8gstuw-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N1N7g5vAUtlQ3Z8gstuw-44" value="Ext Test" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
