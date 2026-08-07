@@ -1,0 +1,17 @@
+flowchart LR
+    DAXSystem["D365 / DAX System"]
+    GatewayIn["ffc-pay-gateway<br/>Inbound Poller"]
+    BlobDPSIn["dps container<br/>inbound folder"]
+    DpsParse["ffc-pay-dps<br/>Parse Ack file<br/>(typed as DAX)"]
+    DpsPublish["ffc-pay-dps<br/>Publish renamed .ack file<br/>(FFC prefix stripped)"]
+    BlobDAXOut["dax container<br/>outbound folder"]
+    GatewayOut["ffc-pay-gateway<br/>Outbound Transfer"]
+    TraderOut["Trader File Share<br/>DPS ack file<br/>+ control file"]
+
+    DAXSystem -->|.ack acknowledgement file| GatewayIn
+    GatewayIn -->|upload ack file| BlobDPSIn
+    BlobDPSIn -->|poll pending files| DpsParse
+    DpsParse -->|transform| DpsPublish
+    DpsPublish -->|write renamed .ack file| BlobDAXOut
+    BlobDAXOut -->|read by| GatewayOut
+    GatewayOut -->|deliver ack + control file| TraderOut

@@ -1,0 +1,19 @@
+flowchart LR
+    TraderIn["Trader File Share<br/>DPS security file<br/>+ control file"]
+    GatewayIn["ffc-pay-gateway<br/>Inbound Poller<br/>(poll window/days)"]
+    BlobDPSIn["dps container<br/>inbound folder"]
+    DpsParse["ffc-pay-dps<br/>Parse DPS file"]
+    DpsPublish["ffc-pay-dps<br/>Publish DAX csv<br/>(FFC-prefixed filename)"]
+    BlobDAXOut["dax container<br/>outbound folder"]
+    GatewayOut["ffc-pay-gateway<br/>Outbound Transfer"]
+    DAXSystem["D365 / DAX System"]
+    BlobDPSArchive["dps container<br/>archive folder"]
+
+    TraderIn -->|SFTP poll| GatewayIn
+    GatewayIn -->|upload PENDING_ files| BlobDPSIn
+    BlobDPSIn -->|poll pending files| DpsParse
+    DpsParse -->|transform + add fields| DpsPublish
+    DpsParse -.->|archive original| BlobDPSArchive
+    DpsPublish -->|write DAX csv| BlobDAXOut
+    BlobDAXOut -->|read by| GatewayOut
+    GatewayOut -->|send to D365| DAXSystem

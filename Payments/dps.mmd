@@ -1,0 +1,51 @@
+flowchart LR
+    subgraph D365["Microsoft D365 / DAX"]
+        DAXSystem[D365 DAX System]
+    end
+
+    subgraph Trader["Trader File Share (SFTP)"]
+        TraderIn["Inbound: DPS security file<br/>e.g. BGAN20230908164539C.OUT<br/>+ control file"]
+        TraderOut["Outbound: DPS ack file<br/>e.g. BGAN20230908164539C.ack<br/>+ control file"]
+    end
+
+    subgraph Gateway["ffc-pay-gateway"]
+        GatewayIn[Inbound Poller<br/>poll window/days]
+        GatewayOut[Outbound Transfer]
+    end
+
+    subgraph BlobDPS["Azure Blob Storage - dps container"]
+        DPSInbound[inbound folder]
+        DPSArchive[archive folder]
+    end
+
+    subgraph DpsSvc["ffc-pay-dps"]
+        DpsPoll[Poll Inbound]
+        DpsParseDPS[Parse DPS file<br/>read-dps-file.js]
+        DpsParseAck[Parse Ack DAX file<br/>read-dax-file.js]
+        DpsPublish[Publish]
+    end
+
+    subgraph BlobDAX["Azure Blob Storage - dax container"]
+        DAXOutbound[outbound folder]
+    end
+
+    %% Outbound: Trader -> D365
+    TraderIn -->|SFTP poll| GatewayIn
+    GatewayIn -->|upload PENDING_ files| DPSInbound
+    DPSInbound -->|poll pending files| DpsPoll
+    DpsPoll --> DpsParseDPS
+    DpsParseDPS -->|transform + add fields| DpsPublish
+    DpsPublish -->|write DAX csv<br/>FFC-prefixed filename| DAXOutbound
+    DpsPublish -.->|archive original| DPSArchive
+    DAXOutbound -->|read by| GatewayOut
+    GatewayOut -->|send to D365| DAXSystem
+
+    %% Return: D365 -> Trader
+    DAXSystem -->|.ack acknowledgement file| GatewayIn
+    GatewayIn -->|upload ack file as DAX type| DPSInbound
+    DPSInbound -->|poll pending files| DpsPoll
+    DpsPoll --> DpsParseAck
+    DpsParseAck -->|transform + strip FFC prefix| DpsPublish
+    DpsPublish -->|write renamed .ack file| DAXOutbound
+    DAXOutbound -->|read by| GatewayOut
+    GatewayOut -->|deliver ack + control file| TraderOut
